@@ -42,6 +42,18 @@
             position: absolute;
         }
 
+        @media screen and (max-width: 393px) {
+            .logo {
+                width: 190px;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            .logo {
+                width: 160px;
+            }
+        }
+
     </style>
     @yield('css')
 </head>
