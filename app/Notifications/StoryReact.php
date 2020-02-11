@@ -40,10 +40,12 @@ class StoryReact extends Notification
      */
     public function toMail($notifiable)
     {
+        $message = auth()->user()->first_name . " ". auth()->user()->last_name . " reacted on your story.";
+
         return (new MailMessage)
                     ->greeting('Hello ' . $this->story['user_first_name'] . ",")
-                    ->subject('Notification ')
-                    ->line(auth()->user()->first_name . " ". auth()->user()->last_name . " reacted on your story.")
+                    ->subject($message)
+                    ->line($message)
                     ->action('View Story', url('/stories/' . $this->story->story_id))
                     ->line('Thank you for using connection coin!');
     }
@@ -56,12 +58,17 @@ class StoryReact extends Notification
      */
     public function toArray($notifiable)
     {
+        $emotions = getEmotions();
+        $reaction = $this->story->reaction_id;
+
         return [
-            'user_id' => auth()->user()->id,
-            'story_id' => $this->story->story_id,
-            'reaction_id' => $this->story->reaction_id,
+            'user_id'         => auth()->user()->id,
+            'story_id'        => $this->story->story_id,
+            'reaction_id'     => $this->story->reaction_id,
             'user_first_name' => auth()->user()->first_name,
-            'user_last_name' => auth()->user()->last_name
+            'user_last_name'  => auth()->user()->last_name,
+            'message'         => auth()->user()->first_name . " reacted \"". $emotions[$reaction]['title'] ."\" to your story.",
+            'url'             => '/stories/' . $this->story->story_id
         ];
     }
 }

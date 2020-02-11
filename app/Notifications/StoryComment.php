@@ -41,10 +41,12 @@ class StoryComment extends Notification
      */
     public function toMail($notifiable)
     {
+        $message = $this->comment->user->first_name . " ". $this->comment->user->last_name . " commented on your story.";
+
         return (new MailMessage)
                     ->greeting('Hello ' . $this->comment->story->user->first_name . ",")
-                    ->subject('Notification ')
-                    ->line($this->comment->user->first_name . " ". $this->comment->user->last_name . " commented on your story.")
+                    ->subject($message)
+                    ->line($message)
                     ->action('View Story', url('/stories/' . $this->comment->story->id))
                     ->line('Thank you for using connection coin!');
     }
@@ -60,11 +62,13 @@ class StoryComment extends Notification
         $user = User::find( $this->comment->user_id );
 
         return [
-            'story_id' => $this->comment->story_id,
-            'text'     => $this->comment->text,
-            'user_id'  => $this->comment->user_id,
+            'story_id'        => $this->comment->story_id,
+            'text'            => $this->comment->text,
+            'user_id'         => $this->comment->user_id,
             'user_first_name' => $user->first_name,
-            'user_last_name' => $user->last_name
+            'user_last_name'  => $user->last_name,
+            'message'         => $user->first_name . " commented on your story.",
+            'url'             => "/stories/" . $this->comment->story_id
         ];
     }
 }

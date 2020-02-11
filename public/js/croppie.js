@@ -2340,7 +2340,7 @@ module.exports = g;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/connectioncoinWebsite/resources/js/croppie.js */"./resources/js/croppie.js");
+module.exports = __webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/updatedconnection/resources/js/croppie.js */"./resources/js/croppie.js");
 
 
 /***/ })

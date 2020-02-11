@@ -49673,9 +49673,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/connectioncoinWebsite/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/connectioncoinWebsite/resources/sass/app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/connectioncoinWebsite/resources/sass/auth.scss */"./resources/sass/auth.scss");
+__webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/updatedconnection/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/updatedconnection/resources/sass/app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/updatedconnection/resources/sass/auth.scss */"./resources/sass/auth.scss");
 
 
 /***/ })
