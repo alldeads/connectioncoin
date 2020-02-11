@@ -10,7 +10,11 @@
 
                 <input type="hidden" name="notif_id" value="{{ $notification->id }}">
 
-                <img style="border-radius: 80%;" src="http://fleischmen.com/wp-content/uploads/2017/11/user-avatar-placeholder.png" width="40" height="40">
+                <img 
+                    style="border-radius: 80%;" 
+                    src="{{ asset('images/connectionc.png') }}" 
+                    width="40" 
+                    height="40">
 
                 <a style="color: #3490dc !important; cursor: pointer;"
                      onclick="document.getElementById('notif_form{{ $notification->id }}').submit();"> 
