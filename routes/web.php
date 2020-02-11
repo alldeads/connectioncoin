@@ -73,7 +73,7 @@ Route::middleware(['auth', 'verified', 'role:admin|client'])->group(function () 
 
     Route::post('/like/story', 'StoryLikeController@store');
 
-    Route::post('/user/notifications', 'StoryController@notification');
+    Route::post('/user/notifications', 'NotificationController@index');
 
     Route::post('/wordpress/store', 'WordPressStoreController@store')->name('wordpress_store.store');
 
