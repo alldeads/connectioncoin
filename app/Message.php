@@ -51,4 +51,20 @@ class Message extends Model
         return "";
     }
 
+    public function getUnreadMessages( $from, $to )
+    {
+        $user_id = auth()->id() == $from? $to : $from;
+
+        $messages = Message::where(function ($q) use ($user_id) {
+            $q->where('from_user_id', auth()->id());
+            $q->where('to_user_id', $user_id);
+        })->orWhere(function ($q) use ($user_id) {
+            $q->where('from_user_id', $user_id);
+            $q->where('to_user_id', auth()->id());
+        })->sum('read');
+
+        
+        return $messages;
+    }
+
 }

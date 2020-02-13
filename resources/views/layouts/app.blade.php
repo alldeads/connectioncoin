@@ -54,6 +54,11 @@
             }
         }
 
+        .user-wrapper{
+            height: 500px;
+            width: 100%;
+        }
+
         .user-wrapper, .message-wrapper {
             border: 1px solid #dddddd;
             overflow-y: auto;

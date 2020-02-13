@@ -30,51 +30,52 @@
                         <input style="border-width:2px !important; border-radius: 0.25rem !important;" class="form-control" type="text" name="search" placeholder="Search">
                     </div>
                 </div> --}}
-                @foreach( $messages as $message )
-                    <a href="/messages/{{ $message->from_user_id == auth()->id() ? $message->to_user_id : $message->from_user_id}}">
-                        <div class="row people" style="padding: 15px;">
-                            <div class="col-lg-3 col-md-4 col-sm-4 col-4 text-center">
 
-                                @if ( $message->from_user_id == auth()->id() )
+                <div class="row mt-2">
+                    <div class="col-12">
+                        <div class="message-wrapper">
+                            @foreach( $messages as $message )
+                                <a href="/messages/{{ $message->from_user_id == auth()->id() ? $message->to_user_id : $message->from_user_id}}">
+                                    <div class="row people" style="padding: 15px;">
+                                        <div class="col-lg-3 col-md-4 col-sm-4 col-4 text-center">
+                                            @if ( $message->from_user_id == auth()->id() )
+                                                <img src="{{ $message->recipient->thePhoto }}" 
+                                                    title="{{ $message->recipient->getFullName() }}" 
+                                                    alt="{{ $message->recipient->getFullName() }}" 
+                                                    class="img-thumbnail rounded-circle" 
+                                                    style="width: 55px; height: 55px; margin-right: 5px; border: 4px solid {{ "#" . ltrim($message->recipient->getMilestone( $message->recipient->connection_made ), "d") }};">
+                                            @else
+                                                <img src="{{ $message->user->thePhoto }}" 
+                                                    title="{{ $message->user->getFullName() }}" 
+                                                    alt="{{ $message->user->getFullName() }}" 
+                                                    class="img-thumbnail rounded-circle" 
+                                                    style="width: 55px; height: 55px; margin-right: 5px; border: 4px solid {{ "#" . ltrim($message->user->getMilestone( $message->user->connection_made ), "d") }};">
+                                            @endif
+                                        </div>
 
-                                    <img src="{{ $message->recipient->thePhoto }}" 
-                                        title="{{ $message->recipient->getFullName() }}" 
-                                        alt="{{ $message->recipient->getFullName() }}" 
-                                        class="img-thumbnail rounded-circle" 
-                                        style="width: 55px; height: 55px; margin-right: 5px; border: 4px solid {{ "#" . ltrim($message->recipient->getMilestone( $message->recipient->connection_made ), "d") }};">
-                                @else
+                                        @if ( $message->from_user_id == auth()->id() )
 
-                                    <img src="{{ $message->user->thePhoto }}" 
-                                        title="{{ $message->user->getFullName() }}" 
-                                        alt="{{ $message->user->getFullName() }}" 
-                                        class="img-thumbnail rounded-circle" 
-                                        style="width: 55px; height: 55px; margin-right: 5px; border: 4px solid {{ "#" . ltrim($message->user->getMilestone( $message->user->connection_made ), "d") }};">
+                                            <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                                                <h5> {{ $message->recipient->getFullName() }}</h5>
+                                                <small class="text-dark"> {{ str_limit($message->getTheLastMessage($message->from_user_id, $message->to_user_id), 50) }}</small>
+                                            </div>
+                                        @else
+                                            <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                                                <h5> {{ $message->user->getFullName() }}</h5>
+                                                <small class="text-dark"> {{ str_limit($message->getTheLastMessage($message->to_user_id, $message->from_user_id, true), 50) }}</small>
+                                            </div>
+                                        @endif
 
-                                @endif
-                            </div>
+                                        {{-- @if ( $count = $message->getUnreadMessages( $message->from_user_id, $message->to_user_id ) > 0 )
 
-                            @if ( $message->from_user_id == auth()->id() )
-
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                                    <h5> {{ $message->recipient->getFullName() }}</h5>
-                                    <small class="text-dark"> {{ str_limit($message->getTheLastMessage($message->from_user_id, $message->to_user_id), 50) }}</small>
-                                </div>
-
-                            @else
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                                    <h5> {{ $message->user->getFullName() }}</h5>
-                                    <small class="text-dark"> {{ str_limit($message->getTheLastMessage($message->to_user_id, $message->from_user_id, true), 50) }}</small>
-                                </div>
-
-                            @endif
-                            
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                                                <small class="badge badge-danger"> {{ $count }}</small>
+                                            </div>
+                                        @endif --}}
+                                    </div>
+                                </a>
+                            @endforeach
                         </div>
-                    </a>
-                @endforeach
-
-                <div class="row m-auto">
-                    <div class="col-lg-8"> 
-                        {{-- {{ $registered->links() }} --}}
                     </div>
                 </div>
             </div>

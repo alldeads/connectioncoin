@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Message;
 use App\User;
+use App\Notifications\NewMessage;
 use Illuminate\Http\Request;
 
 class MessageController extends Controller
@@ -16,12 +17,49 @@ class MessageController extends Controller
     public function index()
     {
 
-        $messages = Message::select('from_user_id', 'to_user_id')
-        ->where(function ($q) {
-            $q->where('from_user_id', auth()->id());
-        })->orWhere(function ($q){
-            $q->where('to_user_id', auth()->id());
-        })->groupBy('from_user_id', 'to_user_id')->get();
+        $from_messages = Message::select('from_user_id', 'to_user_id')
+                            ->where(function ($q) {
+                                $q->where('from_user_id', auth()->id());
+                                $q->orderBy('created_at', 'desc');
+                            })->groupBy('from_user_id', 'to_user_id')
+                                ->get();
+
+        $to_messages = Message::select('from_user_id', 'to_user_id')
+                            ->where(function ($q) {
+                                $q->where('to_user_id', auth()->id());
+                                $q->orderBy('created_at', 'desc');
+                            })->groupBy('from_user_id', 'to_user_id')
+                                ->get();
+
+        $messages = [];
+
+        if ( count( $to_messages->toArray() ) == 0 ) {
+
+            $messages = $from_messages;
+
+        } else if ( count( $from_messages->toArray() ) == 0 ) {
+
+            $messages = $to_messages;
+
+        } else if ( count( $from_messages->toArray() ) > 0 ) {
+
+            foreach ( $from_messages as $from ) {
+                foreach ( $to_messages as $to ) {
+
+                    if ( $from->from_user_id == $to->to_user_id && $from->to_user_id == $to->from_user_id ) {
+
+                        $messages[] = $to;
+                    }
+
+                    if ( $from->to_user_id != $to->from_user_id ) {
+
+                        $messages[] = $from;
+                    }
+
+                    break;
+                }
+            }
+        }
 
         $this->views['messages'] = $messages;
 
@@ -44,7 +82,13 @@ class MessageController extends Controller
         $message->to_user_id = $request->input('to_user_id');
         $message->from_user_id = auth()->id();
         $message->text = $request->input('message');
+        $message->read = 1;
         $message->save();
+
+        if ( auth()->id() != $message->to_user_id ) {
+
+            $message->recipient->notify( new NewMessage($message) );
+        }
 
         return redirect('/messages/' . $request->input('to_user_id'));
     }
@@ -86,6 +130,9 @@ class MessageController extends Controller
             $q->where('from_user_id', $user_id);
             $q->where('to_user_id', auth()->id());
         })->get();
+
+        // $update = Message::where(['to_user_id' => auth()->id(), 'from_user_id' => $user_id ])
+        //                 ->update(['read' => 0]);
 
         $this->views['messages']   = $messages;
         $this->views['to_user_id'] = $user_id;
