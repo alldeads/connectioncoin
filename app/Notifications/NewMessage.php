@@ -47,7 +47,7 @@ class NewMessage extends Notification
                     ->greeting('Hello ' . $this->message->recipient->first_name . ",")
                     ->subject($message)
                     ->line($message)
-                    ->action('View Story', url('/messages/' . $this->message->from_user_id))
+                    ->action('View Message', url('/messages/' . $this->message->from_user_id))
                     ->line('Thank you for using connection coin!');
     }
 
