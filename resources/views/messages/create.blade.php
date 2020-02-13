@@ -71,7 +71,7 @@
         $(document).ready(function(){
             $( ".people-select" ).select2({
                 ajax: { 
-                    url: {{ route('message.users') }},
+                    url: "{{ route('message.users') }}",
                     type: "post",
                     dataType: 'json',
                     delay: 250,
