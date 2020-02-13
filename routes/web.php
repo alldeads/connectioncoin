@@ -67,11 +67,17 @@ Route::middleware(['auth', 'verified', 'role:admin|client'])->group(function () 
 
     Route::resource('coins', 'CoinController');
 
-    Route::get('messages/{message?}', 'MessageController@show')->name('messages.show');
+    Route::get('messages/{message}', 'MessageController@show')->name('messages.show');
 
     Route::resource('comments', 'CommentController');
 
     Route::post('/like/story', 'StoryLikeController@store');
+
+    Route::post('/create/message', 'MessageController@create');
+
+    Route::get('/create/message', 'MessageController@create');
+
+    Route::post('/users/getUsers/','MessageController@users')->name('message.users');
 
     Route::post('/user/notifications', 'NotificationController@index');
 

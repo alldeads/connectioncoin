@@ -49267,6 +49267,7 @@ jQuery(document).ready(function ($) {
       'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
     }
   });
+
   var socket = io.connect(APP_URL + ":3001");
 
   function clientExists() {

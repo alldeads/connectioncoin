@@ -26,5 +26,9 @@
         "express": "^4.15.2",
         "file-system": "^2.2.2",
         "socket.io": "^2.1.1"
+    },
+    "dependencies": {
+        "laravel-echo": "^1.6.1",
+        "pusher-js": "^5.1.1"
     }
 }

@@ -16,7 +16,13 @@ class MessageController extends Controller
     public function index()
     {
 
-        $messages = Message::select('from_user_id')->where('to_user_id', auth()->id())->groupBy('from_user_id')->get();
+        $messages = Message::select('from_user_id', 'to_user_id')
+        ->where(function ($q) {
+            $q->where('from_user_id', auth()->id());
+        })->orWhere(function ($q){
+            $q->where('to_user_id', auth()->id());
+        })->groupBy('from_user_id', 'to_user_id')->get();
+
         $this->views['messages'] = $messages;
 
         return view('messages.index', $this->views);
@@ -27,9 +33,20 @@ class MessageController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create( Request $request )
     {
-        //
+        if ( count($request->all()) == 0) {
+
+            return view('messages.create');
+        }
+
+        $message = new Message;
+        $message->to_user_id = $request->input('to_user_id');
+        $message->from_user_id = auth()->id();
+        $message->text = $request->input('message');
+        $message->save();
+
+        return redirect('/messages/' . $request->input('to_user_id'));
     }
 
     /**
@@ -55,12 +72,12 @@ class MessageController extends Controller
      * @param  \App\Message  $message
      * @return \Illuminate\Http\Response
      */
-    public function show($user_id, Request $request)
+    public function show($user_id)
     {
 
-        if (!$request->ajax()) {
-            abort(404);
-        }
+        // if (!$request->ajax()) {
+        //     abort(404);
+        // }
 
         $messages = Message::where(function ($q) use ($user_id) {
             $q->where('from_user_id', auth()->id());
@@ -70,7 +87,12 @@ class MessageController extends Controller
             $q->where('to_user_id', auth()->id());
         })->get();
 
-        return response()->json($messages);
+        $this->views['messages']   = $messages;
+        $this->views['to_user_id'] = $user_id;
+
+        // return response()->json($messages);
+
+        return view('messages.show', $this->views);
     }
 
     /**
@@ -105,6 +127,37 @@ class MessageController extends Controller
     public function destroy(Message $message)
     {
         //
+    }
+
+    public function users( Request $request )
+    {
+        $search = $request->search;
+
+        if ( $search == '' ){
+            $users = User::orderby('first_name','asc')
+                            ->select('id','first_name','last_name')
+                            ->whereNotNull('email')
+                            ->limit(5)->get();
+        }else{
+            $users = User::orderby('first_name','asc')
+                            ->select('id','first_name','last_name')
+                            ->where('first_name', 'like', '%' .$search . '%')
+                            ->orWhere('last_name', 'like', '%' .$search . '%')
+                            ->whereNotNull('email')
+                            ->limit(5)->get();
+        }
+
+        $response = array();
+
+        foreach($users as $users){
+            $response[] = array(
+                "id"   =>$users->id,
+                "text" =>$users->first_name . ' ' . $users->last_name
+            );
+        }
+
+        echo json_encode($response);
+        exit;
     }
 
 }
