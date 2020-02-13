@@ -66,10 +66,12 @@
             });
         });
 
+
+
         $(document).ready(function(){
             $( ".people-select" ).select2({
                 ajax: { 
-                    url: "/users/getUsers/",
+                    url: {{ route('message.users') }},
                     type: "post",
                     dataType: 'json',
                     delay: 250,
