@@ -45,7 +45,7 @@ Route::resource('connections', 'Coin\ConnectionController');
 Route::get('stories/create', 'StoryController@create')->name('stories.create');
 Route::post('stories', 'StoryController@store')->name('stories.store');
 
-Route::middleware(['auth', 'verified', 'role:admin|client'])->group(function () {
+Route::middleware(['auth', 'verified'])->group(function () {
 
     Route::get('stories/{story}', 'StoryController@show')->name('stories.show');
     Route::get('stories/{story}/edit', 'StoryController@edit')->name('stories.edit');
