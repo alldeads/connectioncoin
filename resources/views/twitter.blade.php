@@ -525,7 +525,7 @@
 <!--Some Feature ends-->
 
 <!-- Our Team-->
-<section id="our-team" class="padding_top half-section-alt teams-border">
+<section id="our-team" class="padding_top half-section-alt teams-border mb-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -543,7 +543,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div id="ourteam-slider mb-3" class="owl-carousel">
+                <div id="ourteam-slider" class="owl-carousel">
                     @foreach( $stories as $story )
                         <div class="item">
                             <div class="team-box">
