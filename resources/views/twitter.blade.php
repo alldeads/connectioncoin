@@ -543,16 +543,20 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div id="ourteam-slider" class="owl-carousel">
+                <div id="ourteam-slider mb-3" class="owl-carousel">
                     @foreach( $stories as $story )
                         <div class="item">
                             <div class="team-box">
                                 <div class="image">
-                                    <img src="{{ $story->images[0]->getCompressImage( $story->images[0]->filepath ) }}" alt="">
+                                    @if ( isset($story->images[0]) )
+                                        <img src="{{ $story->images[0]->getCompressImage( $story->images[0]->filepath ) }}" alt="">
+                                    @else
+                                        <img src="{{ asset('assets/images/awesome-feature.jpg') }}" alt="">
+                                    @endif
                                 </div>
                                 <div class="team-content">
                                     <h4 class="darkcolor">{{ $story->title }}</h4>
-                                    <p>{{ $story->theDescription }}</p>
+                                    <p>{{ substr($story->description, 0, 25) }}</p>
                                 </div>
                             </div>
                         </div>
