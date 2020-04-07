@@ -548,7 +548,7 @@
                         <div class="item">
                             <div class="team-box">
                                 <div class="image">
-                                    <img src="{{ $story->images[0]->getCompressImage( $story->images[0]->filepath ) }} }}" alt="">
+                                    <img src="{{ $story->images[0]->getCompressImage( $story->images[0]->filepath ) }}" alt="">
                                 </div>
                                 <div class="team-content">
                                     <h4 class="darkcolor">{{ $story->title }}</h4>
