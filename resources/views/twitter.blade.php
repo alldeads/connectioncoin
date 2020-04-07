@@ -547,9 +547,9 @@
                     @foreach( $stories as $story )
                         <div class="item">
                             <div class="team-box">
-                                {{-- <div class="image">
+                                <div class="image">
                                     <img src="{{ $story->image[0]->getCompressImage( $story->image[0]->filepath ) }} }}" alt="">
-                                </div> --}}
+                                </div>
                                 <div class="team-content">
                                     <h4 class="darkcolor">{{ $story->title }}</h4>
                                     <p>{{ $story->theDescription }}</p>
