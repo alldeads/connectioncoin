@@ -278,23 +278,21 @@
                         <a href="#whatis" class="button border btn-primary button-padding font-13 transition-3" style="background-color: #0085ad !important;">Learn More</a>
                     </div>
                     <!-- LAYER NR. 13 -->
-                    <div class="tp-caption   tp-resizeme darkcolor"
+                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
                          data-x="['left','center','center','center']" data-hoffset="['7','0','0','0']"
-                         data-y="['top','top','top','top']" data-voffset="['348','260','155','98']"
-                         data-fontsize="['60','50','40','40']"
-                         data-lineheight="['75','75','45','45']"
-                         data-width="['556','556','556','']"
-                         data-height="['none','none','none','87']"
+                         data-y="['top','top','top','top']" data-voffset="['400','180','100','50']"
+                         data-width="none"
+                         data-height="none"
                          data-whitespace="nowrap"
-                         data-type="text"
+                         data-type="image"
                          data-responsive_offset="on"
-                         data-frames='[{"delay":100,"split":"chars","splitdelay":0.1,"speed":1480,"split_direction":"random","frame":"0","from":"y:50px;sX:1;sY:1;opacity:0;fb:20px;","color":"rgba(0,0,0,0)","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","color":"transparent","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','center','center','center']"
+                         data-frames='[{"delay":80,"speed":1510,"frame":"0","from":"y:bottom;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
                          data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]"
                          data-paddingbottom="[0,0,0,0]"
                          data-paddingleft="[0,0,0,0]"
-                         style="z-index: 17; min-width: 556px; max-width: 556px; white-space: nowrap; font-size: 60px; line-height: 75px; font-weight: 700; letter-spacing: 0px;font-family: 'Poppins', sans-serif; color: #0085ad !important; ">Connection Coin </div>
+                         style="z-index: 17;"><img src="{{ asset('images/app_icon.png') }}" alt="" data-ww="['350px','350px','350px','350px']" data-hh="['auto','auto','auto','auto']" data-no-retina> </div>
                 </li>
                 <!-- SLIDE 2 -->
                 <li data-index="rs-32" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="revolution/assets/100x50_59345-slider-bg.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
@@ -329,12 +327,12 @@
                          data-type="text"
                          data-responsive_offset="on"
                          data-frames='[{"delay":100,"speed":1480,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['right','center','center','center']"
+                         data-textAlign="['center','center','center','center']"
                          data-paddingtop="[0,0,0,0]"
                          data-paddingright="[0,0,0,0]"
                          data-paddingbottom="[0,0,0,0]"
                          data-paddingleft="[0,0,0,0]"
-                         style="z-index: 8; min-width: 646px; max-width: 646px; white-space: nowrap; font-size: 15px; line-height: 22px; font-weight: 400; letter-spacing: 0px;font-family: 'Poppins', sans-serif;">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy.  Lorem Ipsum has been the industry’s standard dummy.
+                         style="z-index: 8; min-width: 646px; max-width: 646px; white-space: nowrap; font-size: 15px; line-height: 22px; font-weight: 400; letter-spacing: 0px;font-family: 'Poppins', sans-serif;">We believe in positivity, doing good, saying thank you - and any real moment where people can look each other in the eye and connect. 
                     </div>
                     <!-- LAYER NR. 5 -->
                     <div class="tp-caption   tp-resizeme"
@@ -470,7 +468,7 @@
                          data-textAlign="['right','center','center','center']"
                          data-width="['160','160','160','160']"
                          style="z-index:99; max-width: 960px">
-                        <a href="#whatis" class="button btn-primary transition-3 border button-padding font-13">Learn More</a>
+                        <a href="#whatis" class="button btn-primary transition-3 border button-padding font-13" style="background-color: #0085ad !important;">Learn More</a>
                     </div>
                     <!-- LAYER NR. 13 -->
                     <div class="tp-caption   tp-resizeme darkcolor"
@@ -556,7 +554,7 @@
                                 </div>
                                 <div class="team-content">
                                     <h4 class="darkcolor">{{ $story->title }}</h4>
-                                    <p>{{ substr($story->description, 0, 25) }}</p>
+                                    <p>{{ substr($story->description, 0, 40) }}</p>
                                 </div>
                             </div>
                         </div>
