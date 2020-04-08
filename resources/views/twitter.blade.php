@@ -497,7 +497,7 @@
 </section>
 <!-- Main Section end -->
 <!--Some Feature -->
-<section id="whatis" class="single-feature padding">
+<section id="whatis" class="single-feature p-3">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-6 col-md-7 col-sm-7 text-sm-left text-center wow fadeInLeft" data-wow-delay="300ms">
@@ -522,13 +522,58 @@
 </section>
 <!--Some Feature ends-->
 
+<!--Some Feature -->
+<section class="single-feature p-3">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="mb-2 col-lg-6 col-md-7 col-sm-7 text-sm-left text-center wow fadeInLeft" data-wow-delay="300ms">
+                <div class="image"><img alt="SEO" src="assets/images/connector.jpg"></div>
+            </div>
+
+            <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
+                <div class="heading-title mb-4">
+                    <h3 class="darkcolor font-normal bottom30"> Are you a <span class="defaultcolor" style="color: #0085ad !important;">Connector</span>?</h3>
+
+                    <h4 class="darkcolor">Start sharing your power of connection - by giving coins to others.</h4>
+                </div>
+
+                <a href="https://store.connectioncoin.com" target="_blank" class="button btnsecondary gradient-btn mb-sm-0 mb-4">Get Coins</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Some Feature ends-->
+
+<!--Some Feature -->
+<section class="single-feature p-3">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInLeft" data-wow-delay="300ms">
+                <div class="heading-title mb-4">
+                    <h3 class="darkcolor font-normal bottom30"> Received a <span class="defaultcolor" style="color: #0085ad !important;">Coin</span>?</h3>
+
+                    <h4 class="darkcolor">We’re so glad you’re here! Here’s what you need to do now. 
+                    </h4>
+                </div>
+
+                <a href="{{ route('stories.create') }}" class="button btnsecondary gradient-btn mb-sm-0 mb-4">Get Started</a>
+            </div>
+
+            <div class="col-lg-6 col-md-7 col-sm-7 text-sm-left text-center wow fadeInRight" data-wow-delay="300ms">
+                <div class="image"><img alt="SEO" src="assets/images/getstarted.jpg"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Some Feature ends-->
+
 <!-- Our Team-->
 <section id="our-team" class="padding_top half-section-alt teams-border mb-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="heading-title heading_space wow fadeInUp" data-wow-delay="300ms">
-                    <span class="defaultcolor text-center text-md-left" style="color: #0085ad !important;">Connection Coins are being shared in real life all over the WORLD
+                    <span class="defaultcolor text-center text-md-left p-2" style="color: #0085ad !important;">Connection Coins are being shared in real life all over the WORLD
                     </span>
                     <h2 class="darkcolor font-normal text-center text-md-left">Track The Impact</h2>
                 </div>
