@@ -1,11 +1,3 @@
-/*-----------------------------------------------------------
-* Template Name    : Nill | Responsive One Page HTML Template
-* Author           : Retrinagroup
-* Version          : 1.0.0
-* Created          : January 2020
-* File Description : Main css file of the template
-*------------------------------------------------------------
-*/
 /***********************
     1.GENERAL
     2.PRELOADER
@@ -27,6 +19,117 @@
 /*-------------------------
          GENERAL
 -------------------------*/
+@font-face {
+  font-family: 'Cambon';
+  src: url('../../fonts/Cambon-BookItalic.woff2') format('woff2'), url('../../fonts/Cambon-DemiItalic.woff2') format('woff2'), url('../../fonts/Cambon-BookItalic.woff') format('woff'), url('../../fonts/Cambon-DemiItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Cambon book';
+  src: url('../../fonts/Cambon-Book.woff2') format('woff2'), url('../../fonts/Cambon-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Chatypeb2';
+  src: url('../../fonts/chatypeb2.1thin-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Goodsans';
+  src: url('../../fonts/GoodSans-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lucidagrande';
+  src: url('../../fonts/LucidaGrande.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Chatype';
+  src: url('../../fonts/ChatypeMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.25em;
+}
+
+.cambon {
+    font-family: 'Cambon book',sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.25em;
+}
+
 body {
   font-family: "Muli", sans-serif;
 }
@@ -53,11 +156,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .base-color {
-  color: #e24727 !important;
+  color: #0085ad !important;
 }
 
 .bg-base-color {
-  background-color: #e24727 !important;
+  background-color: #0085ad !important;
 }
 
 .z-index {
@@ -94,8 +197,8 @@ a, button {
 }
 
 .pill-button {
-  background-color: #e24727;
-  border: 2px solid #e24727;
+  background-color: #0085ad;
+  border: 2px solid #0085ad;
   border-radius: 25px;
   padding: 10px 30px;
   color: #ffffff;
@@ -155,7 +258,7 @@ a, button {
   top: calc(50% - 20px);
   left: calc(50% - 20px);
   z-index: 99999;
-  color: #e24727;
+  color: #0085ad;
 }
 
 /*-------------------------
@@ -189,7 +292,7 @@ header {
 }
 
 #pp-nav li .active span {
-  background-color: #e24727;
+  background-color: #0085ad;
   width: 30px;
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
@@ -259,7 +362,7 @@ header {
   content: '';
   width: 32px;
   height: 1px;
-  background: #e24727;
+  background: #0085ad;
   position: absolute;
   left: 28px;
   top: 12px;
@@ -269,7 +372,7 @@ header {
   content: '';
   width: 32px;
   height: 1px;
-  background: #e24727;
+  background: #0085ad;
   position: absolute;
   top: 12px;
   right: 32px;
@@ -293,11 +396,11 @@ header {
 }
 
 .overlay-menu a:hover {
-  color: #e24727 !important;
+  color: #0085ad !important;
 }
 
 .overlay-menu a.active {
-  color: #e24727 !important;
+  color: #0085ad !important;
 }
 
 .overlay-menu .overlay-menu-list {
@@ -401,7 +504,7 @@ header {
 }
 
 .hero .social-icon .list-inline-item i:hover {
-  color: #e24727 !important;
+  color: #0085ad !important;
 }
 
 .hero .social-icon .list-inline-item:not(:last-child) {
@@ -657,7 +760,7 @@ ul.timeline > li:before {
   background-color: #ffffff;
   display: inline-block;
   border-radius: 50%;
-  border: 3px solid #e24727;
+  border: 3px solid #0085ad;
   left: -40px;
   width: 20px;
   height: 20px;
@@ -705,7 +808,7 @@ ul.timeline > li:before {
   width: 0;
   border-radius: 3px;
   float: left;
-  background: #e24727;
+  background: #0085ad;
 }
 
 .skill-box .skill-bar-percent {
@@ -749,12 +852,12 @@ ul.timeline > li:before {
 }
 
 .portfolio .portfolio-filter a.active {
-  background-color: #e24727 !important;
+  background-color: #0085ad !important;
   color: #ffffff !important;
 }
 
 .portfolio .portfolio-filter a:hover {
-  background-color: #e24727 !important;
+  background-color: #0085ad !important;
   color: #ffffff !important;
 }
 
@@ -839,7 +942,7 @@ ul.timeline > li:before {
 }
 
 .portfolio .img-overlay-content a:hover {
-  background-color: #e24727;
+  background-color: #0085ad;
   color: #ffffff;
 }
 
@@ -863,7 +966,7 @@ ul.timeline > li:before {
 }
 
 .portfolio .portfolio-icon a:hover, .portfolio .portfolio-icon button:hover {
-  background-color: #e24727;
+  background-color: #0085ad;
   color: #ffffff;
 }
 
@@ -919,12 +1022,12 @@ ul.timeline > li:before {
 
 .testimonial .owl-dot.active span {
   width: 30px;
-  background-color: #e24727;
+  background-color: #0085ad;
 }
 
 .testimonial .owl-carousel .testimonial-item img {
   width: 80px;
-  border: 2px solid #e24727;
+  border: 2px solid #0085ad;
   border-radius: 5px;
 }
 
@@ -941,7 +1044,7 @@ ul.timeline > li:before {
 }
 
 .testimonial .owl-nav .owl-prev span, .testimonial .owl-nav .owl-next span {
-  background: #e24727;
+  background: #0085ad;
   color: #ffffff;
   width: 38px;
   height: 38px;
@@ -1008,11 +1111,11 @@ ul.timeline > li:before {
   transition: border .9s ease;
   border: none;
   border-bottom: 1px solid #929292;
-  color: #e24727;
+  color: #0085ad;
 }
 
 .contact .form-item .form-control:focus {
-  border-bottom: 1px solid #e24727;
+  border-bottom: 1px solid #0085ad;
 }
 
 .contact .contact-form textarea {
@@ -1067,7 +1170,7 @@ ul.timeline > li:before {
 }
 
 .footer .socails li i:hover {
-  color: #e24727 !important;
+  color: #0085ad !important;
 }
 
 /*-------------------------
@@ -1154,7 +1257,7 @@ ul.timeline > li:before {
 }
 
 .right-social ul li a:hover i {
-  color: #e24727 !important;
+  color: #0085ad !important;
 }
 
 @media (max-width: 767px) {
@@ -1489,7 +1592,7 @@ body.nill-dark {
 }
 
 .nill-dark .comment-info a:hover {
-  color: #e24727 !important;
+  color: #0085ad !important;
 }
 
 .nill-dark .form-item .form-control {
@@ -1499,7 +1602,7 @@ body.nill-dark {
 }
 
 .nill-dark .form-item .form-control:focus {
-  border-bottom: 1px solid #e24727;
+  border-bottom: 1px solid #0085ad;
 }
 
 .nill-dark .text-muted {
@@ -1524,7 +1627,7 @@ body.nill-dark {
 }
 
 .nill-dark #pp-nav li .active span, .nill-dark .pp-slidesNav .active span {
-  background-color: #e24727;
+  background-color: #0085ad;
 }
 
 .nill-dark .pp-tooltip {
@@ -1553,7 +1656,7 @@ body.nill-dark {
 }
 
 .nill-dark .portfolio .portfolio-icon a:hover {
-  background-color: #e24727;
+  background-color: #0085ad;
   color: #f4f4f4;
 }
 
@@ -1570,15 +1673,15 @@ body.nill-dark {
 }
 
 .nill-dark .blog .blog-item h5 a:hover {
-  color: #e24727 !important;
+  color: #0085ad !important;
 }
 
 .nill-dark .navbar-nav .nav-item a:hover, .nill-dark .navbar a:hover {
-  color: #e24727 !important;
+  color: #0085ad !important;
 }
 
 .nill-dark .navbar a:hover {
-  color: #e24727 !important;
+  color: #0085ad !important;
 }
 
 .nill-dark .testimonial .owl-dot span {
@@ -1586,7 +1689,7 @@ body.nill-dark {
 }
 
 .nill-dark .testimonial .owl-dot.active span {
-  background-color: #e24727;
+  background-color: #0085ad;
 }
 
 .nill-dark .blog .blog-link button:hover {
@@ -1824,6 +1927,9 @@ body.nill-dark {
     font-size: 12px;
     padding: 0.5rem;
   }
+  .cambon {
+    font-size: 30px;
+  }
   #pp-nav {
     display: none;
   }
@@ -1858,6 +1964,9 @@ body.nill-dark {
   }
   .comment-info {
     margin-left: 100px;
+  }
+  .cambon {
+    font-size: 30px;
   }
   #message.toast {
     top: 18px;

@@ -45,7 +45,7 @@ class StoryController extends Controller
             return redirect('/feed');
         }
 
-        $this->views['stories'] = Story::where('description', '!=', '')->orderBy('created_at', 'desc')->take(4)->get();
+        $this->views['stories'] = Story::where('description', '!=', '')->orderBy('created_at', 'desc')->take(3)->get();
 
         return view('twitter', $this->views);
 
