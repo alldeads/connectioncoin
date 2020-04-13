@@ -58,7 +58,8 @@
                                          <ul class="list-group text-left" id="myMenu">
                                              <li data-menuanchor="home" class="list-group-item"><a href="#home">HOME</a></li>
                                              <li data-menuanchor="story" class="list-group-item"><a href="#story">OUR STORY</a></li>
-                                             <li data-menuanchor="connection" class="list-group-item"><a href="#connection">CONNECTION COIN</a></li>
+                                             <li data-menuanchor="connection" class="list-group-item"><a href="#connection">CONNECTION</a></li>
+                                             <li data-menuanchor="about" class="list-group-item"><a href="#about">ABOUT</a></li>
                                              <li data-menuanchor="connector" class="list-group-item"><a href="#connector">CONNECTOR</a></li>
                                              <li data-menuanchor="coin" class="list-group-item"><a href="#coin">COIN</a></li>
                                              <li data-menuanchor="stories" class="list-group-item"><a href="#stories">STORIES</a></li>
@@ -124,7 +125,8 @@
                                 <div class="col-lg-12">
                                     <div class="hero-content text-center">
                                         <h1 class="text-dark mb-3 cambon">We believe in positivity, doing good, saying thank you - and any real moment where people can look each other in the eye and connect. </h1>
-                                        <a href="javascript:void(0);" class="pill-button mt-3 mb-lg-0">See the stories</a>
+
+                                        <a href="#about" class="pill-button mt-3 mb-lg-0">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +142,7 @@
                     <div class="display-content">
                         <div class="container">
                             <div class="title-small">
-                                <p class="text-dark">Connection Coin</p>
+                                <p class="text-dark">Connection</p>
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col-lg-12">
@@ -153,7 +155,47 @@
                                         <p class="text-dark mb-3 text-justify">It’s that special feeling when two hearts align or when two souls meet. When people choose to elevate and inspire each other. It’s human magic.</p>
                                         <p class="text-dark mb-3 text-justify"> Connection Coin is a movement committed to bringing more of all these good vibes to our world.
                                         </p>
-                                        <a href="javascript:void(0);" class="pill-button mt-3 mb-lg-0">See the stories</a>
+                                        <a href="#about" class="pill-button mt-3 mb-lg-0">About Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--    Hero End    -->
+
+            <!--    Hero Start    -->
+            <section class="section pp-scrollable hero hero-01" id="about" data-navigation-color="#fff" data-navigation-tooltip="ABOUT US" data-background-image="">
+                <div class="display-table">
+                    <div class="display-content">
+                        <div class="container">
+                            <div class="title-small">
+                                <p class="text-dark">About Us</p>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <div class="hero-content text-center">
+                                        <h1 class="text-dark mb-3 cambon"> About <span style="color: #0085ad;">Us</span></h1>
+
+                                        <p class="text-dark mb-3 text-justify">Welcome to Connection Coin, a community of people who believe intentional, positive connections between friends, co-workers and even strangers can change the world.</p>
+
+                                        <p class="text-dark mb-3 text-justify">Through Connection Coin you can give, receive and track coins with positive sayings and unique pin numbers as they pass from person to person spreading positivity, love, and encouragement. Think of "paying it forward" that is trackable! Our goal is that each coin in circulation is passed again and again, creating countless positive face to face connections for people from all over the world. We hope to inspire a return to real life interactions by sharing and celebrating the stories and moments of connection on our news feed.
+                                        </p>
+
+                                        <p class="text-dark mb-3 text-justify">Received a coin?</p>
+
+                                        <p class="text-dark mb-3 text-justify"> We can't wait to hear about your connection! Click the "Create Connection" button and enter the number and phrase of the coin you received. Share the story of how you received the coin and a picture that tells the story of the connection. This information will show up in the connections news feed on our site with all of the other connections being made. Be sure to create your profile to track where the coin goes and include a cover picture, bio and links to your social media if you like. Now it's your turn to pass the coin to the next person! Want to create even more connections? Follow steps below!
+                                        </p>
+
+                                        <p class="text-dark mb-3 text-justify"> Ready to join the community and start giving out coins?
+                                        </p>
+
+                                        <p class="text-dark mb-3 text-justify"> Click the "Get Coins Here" button and order your Starter Pack. When you receive your coins in the mail, visit ConnectionCoin.com to register each coin on your profile. Now you're the catalyst, giving out coins and creating new connections with each coin you share! Be sure to encourage the person who receives the coin from you to log the story of the connection on ConnectionCoin.com before passing it along. On your profile you can track each coin and count how many connections you help create. Watch as your coins travel across the globe and remember to get your coin refill packs to keep the good vibes flowing!
+                                        </p>
+
+                                        <p class="text-dark text-justify"> Check out the <a href="https://www.youtube.com/channel/UCwwtAQ4HgzCB8UX-xvIUOlA">Connection Coin YouTube page</a> for directions on how to register your coins, tips for giving them out, the story behind Connection Coin and more! Tag us @connectioncoin on social media and watch as we share amazing stories of people like you creating beautiful connections all over the world!
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -224,14 +266,16 @@
                                 <div class="title-small">
                                     <p class="text-dark">Stories</p>
                                 </div>
-                                <div class="col-9">
+                                <div class="col-lg-7 col-sm-12 col-md-12">
                                     <div class="text-left">
                                         <h2 class="text-dark">Track The <span class="base-color">Impact</span></h2>
                                         <p class="text-muted mt-1">Connection Coins are being shared in real life all over the WORLD</p>
                                     </div>
                                 </div>
-                                <div class="col-3">
-                                    <a href="{{ route('stories.index') }}" class="pill-button mt-3 mb-lg-0">See The Stories</a>
+                                <div class="col-lg-5 col-sm-12 col-md-12">
+                                    <div class="text-center">
+                                        <a href="{{ route('stories.index') }}" class="pill-button mt-3 mb-lg-0">See The Stories</a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row mt-4">

@@ -1866,6 +1866,9 @@ body.nill-dark {
   body {
     padding-top: 63px;
   }
+  .cambon {
+    font-size: 30px;
+  }
   body.pilling-page {
     padding-top: 0;
   }
