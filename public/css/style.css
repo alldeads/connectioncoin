@@ -1,0 +1,79 @@
+ .navigation-bar {
+    mix-blend-mode: difference;
+}
+  
+.portfolio-image {
+    object-fit: cover !important;
+}
+  
+.image-100 {
+    object-fit: cover !important;
+}
+  
+.accolades-logo, .network-logo {
+    object-fit: contain;
+}
+  
+  body, .body {
+    position:relative;
+}
+  
+  /* Styles to auto apply to any text content */
+  
+@media only screen and (min-width: 1320px) {
+    h1 {
+        font-size: 128px;
+    }
+    .navigation__link-text {
+        font-size: 77px;
+    }
+}
+  
+.cursor {
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+.cursor.is-moving {
+    transform: scale(0.8);
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overscroll-behavior-y: none;
+    /* -webkit-user-select: none; */
+    /*   -moz-user-select: none; */
+    /*    -ms-user-select: none; */
+    /*        user-select: none; */
+}
+
+.logo-embed {
+    background: none;
+    color: inherit;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo-embed{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.scroller__content, .about-image-wrapper {
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+}
+  
+  
+.scroller__content::-webkit-scrollbar {
+    display: none; 
+    scrollbar-width: none;
+}
+  
+.about-image-wrapper::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+}

@@ -1,658 +1,162 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<!-- Last Published: Tue Apr 07 2020 17:26:23 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="whiteboard.is" data-wf-page="5e8cb79fac0d6863cf76a7ad" data-wf-site="5ccc1dd76bbefe5a5ccf55a3" lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Connecting the worlds">
-    <meta name="keywords" content="Connection Coin,Coin Connection Home,Connection,Coin,Connection Coin Home,creating connection">
-
+    <meta charset="utf-8"/>
     <title>Connection Coin</title>
-
-    <link href="{{ asset('images/icons/connection.ico') }}" rel="icon">
-
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/jquery.fancybox.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/tooltipster.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/cubeportfolio.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/revolution/navigation.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/revolution/settings.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-</head>
-<body>
-<!--PreLoader-->
-<div class="loader">
-    <div class="loader-inner">
-        <div class="cssload-loader"></div>
-    </div>
-</div>
-<!--PreLoader Ends-->
-<!-- header -->
-<header class="site-header" id="header">
-    <nav class="navbar navbar-expand-lg darkcolor static-nav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="{{ asset('images/app_icon.png') }}" style="width: 250px;" alt="logo" class="logo-default">
-                <img src="{{ asset('images/app_icon.png') }}" style="width: 250px;" alt="logo" class="logo-scrolled">
-            </a>
-        </div>
-        <!--side menu open button-->
-        <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
-            <span class="bg-dark"></span> <span class="bg-dark"></span> <span class="bg-dark"></span>
-        </a>
-    </nav>
-    <!-- side menu -->
-    <div class="side-menu opacity-0 gradient-bg">
-        <div class="overlay"></div>
-        <div class="inner-wrapper">
-            <span class="btn-close btn-close-no-padding" id="btn_sideNavClose"><i></i><i></i></span>
-            <nav class="side-nav w-100">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('login') }}">Sign in</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="side-footer w-100">
-                <ul class="social-icons-simple white top40">
-                    <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
-                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
-                    <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
-                </ul>
-                <p class="whitecolor">&copy; <span id="year"></span> Connection Coin</p>
-            </div>
-        </div>
-    </div>
-    <div id="close_side_menu" class="tooltip"></div>
-    <!-- End side menu -->
-</header>
-<!-- header -->
-<section id="home" class="p-0 h-100vh">
-    <h2 class="d-none">heading</h2>
-    <!--Main Slider-->
-    <div id="rev_slider_8_1_wrapper" class="rev_slider_wrapper fullscreen-container transparent-bg" data-source="gallery">
-        <!-- START REVOLUTION SLIDER 5.4.8.1 fullscreen mode -->
-        <div id="rev_slider_8_1" class="rev_slider fullscreenbanner" data-version="5.4.8.1">
-            <ul>
-                <!-- SLIDE  -->
-                <!-- SLIDE 1  -->
-                <li data-index="rs-18" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="revolution/assets/100x50_59345-slider-bg.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="assets/images/slider-bg.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-6 gradient-bg"
-                         data-x="['left','left','left','left']" data-hoffset="['904','1245','1245','1245']"
-                         data-y="['top','top','top','top']" data-voffset="['250','99','99','99']"
-                         data-width="333"
-                         data-height="455"
-                         data-whitespace="nowrap"
-                         data-type="text"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":80,"speed":1510,"frame":"0","from":"x:right;z:0;rX:0;rY:0;rZ:0;sX:0.7;sY:0.7;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 5; min-width: 333px; max-width: 455px; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0;height:445px;width:331px;display:block;">
-                        <div></div>
-                    </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
-                         data-x="['left','left','left','left']" data-hoffset="['754','1219','1219','1219']"
-                         data-y="['top','top','top','top']" data-voffset="['364','187','187','187']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":80,"speed":1510,"frame":"0","from":"y:bottom;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 6;"><img src="assets/images/slider-img1.jpg" alt="" data-ww="['450px','450px','450px','450px']" data-hh="['287px','287px','287px','287px']" data-no-retina> </div>
-                    <!-- LAYER NR. 3 -->
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption   tp-resizeme darkcolor"
-                         data-x="['left','center','center','center']" data-hoffset="['8','0','0','0']"
-                         data-y="['top','middle','middle','middle']" data-voffset="['460','95','0','10']"
-                         data-whitespace="normal"
-                         data-width="['656','650','550','440']"
-                         data-fontsize="['16','15','15','15']"
-                         data-lineheight="['22','22','22','22']"
-                         data-type="text"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":100,"speed":1480,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','center','center','center']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 8; min-width: 646px; max-width: 646px; white-space: nowrap; font-size: 15px; line-height: 22px; font-weight: 400; letter-spacing: 0px;font-family: 'Poppins', sans-serif;">A movement of humans who believe that the magic of real-life connection has the power to uplift, elevate, and inspire. 
-                    </div>
-                    <!-- LAYER NR. 5 -->
-                    <div class="tp-caption   tp-resizeme"
-                         id="slide-18-layer-3"
-                         data-x="['left','left','left','left']" data-hoffset="['-331','-149','-162','-162']"
-                         data-y="['top','top','top','top']" data-voffset="['28','-78','-127','-127']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:top;rZ:-360deg;opacity:0;","to":"o:1;","ease":"Power0.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 9;">
-                        <div class="rs-looped rs-slideloop"  data-easing="Power0.easeInOut" data-speed="12" data-xs="0" data-xe="0" data-ys="0" data-ye="120"><img src="assets/images/slider-ele1.png" alt="" data-ww="['183px','183px','183px','183px']" data-hh="['445px','445px','445px','445px']"  data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 6 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['576','496','635','137']"
-                         data-y="['top','top','top','top']" data-voffset="['258','439','274','299']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:bottom;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 10;">
-                        <div class="rs-looped rs-slideloop"  data-easing="Power0.easeInOut" data-speed="12" data-xs="0" data-xe="60" data-ys="100" data-ye="60"><img src="assets/images/slider-ele2.png" alt="" data-ww="['51px','51px','51px','51px']" data-hh="['52px','52px','52px','52px']"  data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 7 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['1109','819','315','315']"
-                         data-y="['top','top','top','top']" data-voffset="['160','149','340','293']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 11;">
-                        <div class="rs-looped rs-slideloop"  data-easing="Power0.easeInOut" data-speed="12" data-xs="-90" data-xe="90" data-ys="0" data-ye="20"><img src="assets/images/slider-ele3.png" alt="" data-ww="['50px','50px','50px','50px']" data-hh="['14px','14px','14px','14px']"  data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 8 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['355','491','401','401']"
-                         data-y="['top','top','top','top']" data-voffset="['227','65','36','36']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:right;y:bottom;rZ:360deg;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 12;">
-                        <div class="rs-looped rs-rotate"  data-easing="Power0.easeIn" data-startdeg="0" data-enddeg="360" data-speed="15" data-origin="50% 50%"><img src="assets/images/slider-ele4.png" alt="" data-ww="['67px','67px','67px','67px']" data-hh="['69px','69px','69px','69px']" data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 9 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['509','138','-49','18']"
-                         data-y="['top','top','top','top']" data-voffset="['615','29','364','-62']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1490,"frame":"0","from":"x:center;y:top;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 13;">
-                        <div class="rs-looped rs-wave"  data-speed="12" data-angle="90" data-radius="22px" data-origin="50% 50%"><img src="assets/images/slider-ele5.png" alt="" data-ww="['68px','68px','68px','68px']" data-hh="['67px','67px','67px','67px']" data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 10 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['1307','940','940','940']"
-                         data-y="['top','top','top','top']" data-voffset="['606','421','421','421']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 14;">
-                        <div class="rs-looped rs-slideloop"  data-easing="Power0.easeInOut" data-speed="12" data-xs="0" data-xe="0" data-ys="10" data-ye="-100"><img src="assets/images/slider-ele6.png" alt="" data-ww="['24px','24px','24px','24px']" data-hh="['87px','87px','87px','87px']"  data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 11 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['83','66','429','429']"
-                         data-y="['top','top','top','top']" data-voffset="['753','489','471','471']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 15;">
-                        <div class="rs-looped rs-wave"  data-speed="10" data-angle="90" data-radius="12px" data-origin="50% 50%"><img src="assets/images/slider-ele7.png" alt="" data-ww="['44px','44px','44px','44px']" data-hh="['87px','87px','87px','87px']"  data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 12 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['170','200','90','120']"
-                         data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":800,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                         data-textAlign="['center','center','center','center']"
-                         data-width="['320','320','320','320']"
-                         style="z-index:99; max-width: 960px">
-                        <a href="{{ route('login') }}" class="button border button-padding font-13 button btn-dark transition-3">Get Started</a>
-                        <a href="#whatis" class="button border btn-primary button-padding font-13 transition-3" style="background-color: #0085ad !important;">Learn More</a>
-                    </div>
-                    <!-- LAYER NR. 13 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
-                         data-x="['left','center','center','center']" data-hoffset="['7','0','0','0']"
-                         data-y="['top','top','top','top']" data-voffset="['400','180','100','50']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":80,"speed":1510,"frame":"0","from":"y:bottom;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 17;"><img src="{{ asset('images/app_icon.png') }}" alt="" data-ww="['350px','350px','350px','350px']" data-hh="['auto','auto','auto','auto']" data-no-retina> </div>
-                </li>
-                <!-- SLIDE 2 -->
-                <li data-index="rs-32" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="revolution/assets/100x50_59345-slider-bg.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="assets/images/slider-bg.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
-                         data-x="['left','left','left','left']" data-hoffset="['0','1219','1219','1219']"
-                         data-y="['top','top','top','top']" data-voffset="['320','187','187','187']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":80,"speed":1510,"frame":"0","from":"y:bottom;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 6;"><img src="assets/images/laptop.jpg" alt="" data-ww="['550px','550px','550px','550px']" data-hh="['auto','auto','auto','auto']" data-no-retina> </div>
+    
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    
+    <link href="{{ asset('css/twitter.min.css') }}" rel="stylesheet" type="text/css"/>
+    <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="dc16a617-0180-9938-7a3a-c7281eaf3691"] {color:rgb(0,0,0);}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="dc16a617-0180-9938-7a3a-c7281eaf3691"] {color:rgb(0,0,0);}}@media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="dc16a617-0180-9938-7a3a-c7281eaf3691"] {color:rgb(0,0,0);}}@media (max-width:479px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="dc16a617-0180-9938-7a3a-c7281eaf3691"] {color:rgb(0,0,0);}}</style><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]--><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d83b202c0fa4b80c5e94915_favicon-circle.png" rel="shortcut icon" type="image/x-icon"/><link href="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d8381eef70b637974a3a44c_whiteboard_-_twitter_profile3.png" rel="apple-touch-icon"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-30453572-1"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-30453572-1', {'anonymize_ip': false});</script><meta name="format-detection" content="telephone=no">
+<style>
   
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption   tp-resizeme color-black"
-                         data-x="['right','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['top','middle','middle','middle']" data-voffset="['460','95','0','10']"
-                         data-whitespace="normal"
-                         data-width="['656','650','550','440']"
-                         data-fontsize="['16','15','15','15']"
-                         data-lineheight="['22','22','22','22']"
-                         data-type="text"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":100,"speed":1480,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['center','center','center','center']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 8; min-width: 646px; max-width: 646px; white-space: nowrap; font-size: 15px; line-height: 22px; font-weight: 400; letter-spacing: 0px;font-family: 'Poppins', sans-serif;">We believe in positivity, doing good, saying thank you - and any real moment where people can look each other in the eye and connect. 
-                    </div>
-                    <!-- LAYER NR. 5 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['-331','-149','-162','-162']"
-                         data-y="['top','top','top','top']" data-voffset="['28','-78','-127','-127']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:top;rZ:-360deg;opacity:0;","to":"o:1;","ease":"Power0.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 9;">
-                        <div class="rs-looped rs-slideloop"  data-easing="Power0.easeInOut" data-speed="12" data-xs="0" data-xe="0" data-ys="0" data-ye="120"><img src="assets/images/slider-ele1.png" alt="" data-ww="['183px','183px','183px','183px']" data-hh="['445px','445px','445px','445px']"  data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 6 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['576','496','635','137']"
-                         data-y="['top','top','top','top']" data-voffset="['258','439','274','299']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:bottom;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 10;">
-                        <div class="rs-looped rs-slideloop"  data-easing="Power0.easeInOut" data-speed="12" data-xs="0" data-xe="60" data-ys="100" data-ye="60"><img src="assets/images/slider-ele2.png" alt="" data-ww="['51px','51px','51px','51px']" data-hh="['52px','52px','52px','52px']"  data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 7 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['1109','819','315','315']"
-                         data-y="['top','top','top','top']" data-voffset="['160','149','340','293']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 11;">
-                        <div class="rs-looped rs-slideloop"  data-easing="Power0.easeInOut" data-speed="12" data-xs="-90" data-xe="90" data-ys="0" data-ye="20"><img src="assets/images/slider-ele3.png" alt="" data-ww="['50px','50px','50px','50px']" data-hh="['14px','14px','14px','14px']"  data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 8 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['355','491','401','401']"
-                         data-y="['top','top','top','top']" data-voffset="['227','65','36','36']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:right;y:bottom;rZ:360deg;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 12;">
-                        <div class="rs-looped rs-rotate"  data-easing="Power0.easeIn" data-startdeg="0" data-enddeg="360" data-speed="15" data-origin="50% 50%"><img src="assets/images/slider-ele4.png" alt="" data-ww="['67px','67px','67px','67px']" data-hh="['69px','69px','69px','69px']" data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 9 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['509','138','-49','18']"
-                         data-y="['top','top','top','top']" data-voffset="['615','29','364','-62']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1490,"frame":"0","from":"x:center;y:top;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 13;">
-                        <div class="rs-looped rs-wave"  data-speed="12" data-angle="90" data-radius="22px" data-origin="50% 50%"><img src="assets/images/slider-ele5.png" alt="" data-ww="['68px','68px','68px','68px']" data-hh="['67px','67px','67px','67px']" data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 10 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['1307','940','940','940']"
-                         data-y="['top','top','top','top']" data-voffset="['606','421','421','421']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 14;">
-                        <div class="rs-looped rs-slideloop"  data-easing="Power0.easeInOut" data-speed="12" data-xs="0" data-xe="0" data-ys="10" data-ye="-100"><img src="assets/images/slider-ele6.png" alt="" data-ww="['24px','24px','24px','24px']" data-hh="['87px','87px','87px','87px']"  data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 11 -->
-                    <div class="tp-caption   tp-resizeme"
-                         data-x="['left','left','left','left']" data-hoffset="['83','66','429','429']"
-                         data-y="['top','top','top','top']" data-voffset="['753','489','471','471']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
-                         data-type="image"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":50,"speed":1480,"frame":"0","from":"x:center;y:middle;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','inherit','inherit','inherit']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 15;">
-                        <div class="rs-looped rs-wave"  data-speed="10" data-angle="90" data-radius="12px" data-origin="50% 50%"><img src="assets/images/slider-ele7.png" alt="" data-ww="['44px','44px','44px','44px']" data-hh="['87px','87px','87px','87px']"  data-no-retina> </div>
-                    </div>
-                    <!-- LAYER NR. 12 -->
-                    <div class="tp-caption NotGeneric-Title tp-resizeme font-weight-100 text-white"
-                         data-x="['right','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['170','200','90','120']"
-                         data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":800,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:2px 2px 2px 2px;"}]'
-                         data-textAlign="['right','center','center','center']"
-                         data-width="['160','160','160','160']"
-                         style="z-index:99; max-width: 960px">
-                        <a href="#whatis" class="button btn-primary transition-3 border button-padding font-13" style="background-color: #0085ad !important;">Learn More</a>
-                    </div>
-                    <!-- LAYER NR. 13 -->
-                    <div class="tp-caption   tp-resizeme darkcolor"
-                         data-x="['right','center','center','center']" data-hoffset="['-135','0','0','0']"
-                         data-y="['top','top','top','top']" data-voffset="['348','260','155','98']"
-                         data-fontsize="['60','50','40','40']"
-                         data-lineheight="['75','75','45','45']"
-                         data-width="['556','556','556','350']"
-                         data-height="['none','none','none','87']"
-                         data-whitespace="nowrap"
-                         data-type="text"
-                         data-responsive_offset="on"
-                         data-frames='[{"delay":100,"split":"chars","splitdelay":0.1,"speed":1480,"split_direction":"random","frame":"0","from":"y:50px;sX:1;sY:1;opacity:0;fb:20px;","color":"rgba(0,0,0,0)","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","color":"transparent","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['inherit','center','center','center']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[0,0,0,0]"
-                         style="z-index: 17; min-width: 556px; max-width: 556px; white-space: nowrap; font-size: 60px; line-height: 75px; font-weight: 700; letter-spacing: 0px;font-family: 'Poppins', sans-serif;">Our Story </div>
-                </li>
-            </ul>
-            <div class="tp-bannertimer" style="height: 5px; background: #0085ad !important;"></div>
-        </div>
-    </div>
-    <!--Main Slider ends -->
-</section>
-<!-- Main Section end -->
-<!--Some Feature -->
-<section id="whatis" class="single-feature p-3">
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-lg-6 col-md-7 col-sm-7 text-sm-left text-center wow fadeInLeft" data-wow-delay="300ms">
-                <div class="heading-title mb-4">
-                    <h2 class="darkcolor font-normal bottom30">What is <span class="defaultcolor" style="color: #0085ad !important;">Connection Coin</span>?</h2>
-                </div>
-                <p class="bottom35">It’s an unexpected laugh together. The biggest hug ever. When you realize you’re both from the same hometown that’s 800 miles from here. Telling another person you believe in her. A high five. A smile. Sitting down on the curb beside a stranger. Moving your books so someone else can sit down to study. It’s a return to real-life interaction. </p>
+  
+    .navigation-bar {
+            mix-blend-mode: difference;
+    }
+  
+  .portfolio-image {
+    object-fit: cover !important;
+}
+  
+  .image-100 {
+    object-fit: cover !important;
+}
+  
+.accolades-logo, .network-logo {
+    object-fit: contain;
+}
+  
+  body, .body {
+    position:relative;
+}
+  
+  /* Styles to auto apply to any text content */
+  
+@media only screen and (min-width: 1320px) {
+    h1 {
+        font-size: 128px;
+    }
+    .navigation__link-text {
+        font-size: 77px;
+    }
+}
+  
+.cursor {
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
 
-                <p class="bottom35">Connection is delicate and mighty; finite and expansive; detailed and abstract; scientific and unexplainable. </p>
+.cursor.is-moving {
+    transform: scale(0.8);
+}
 
-                <p class="bottom35">It’s that special feeling when two hearts align or when two souls meet. When people choose to elevate and inspire each other. It’s human magic.</p>
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overscroll-behavior-y: none;
+    /* -webkit-user-select: none; */
+    /*   -moz-user-select: none; */
+    /*    -ms-user-select: none; */
+    /*        user-select: none; */
+}
 
-                <p class="bottom35">Connection Coin is a movement committed to bringing more of all these good vibes to our world.</p>
+.logo-embed {
+    background: none;
+    color: inherit;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
-                <a href="#our-team" class="button btnsecondary gradient-btn pagescroll mb-sm-0 mb-4">About us</a>
-            </div>
-            <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
-                <div class="image"><img alt="SEO" src="assets/images/awesome-feature.jpg"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Some Feature ends-->
+@media only screen and (max-width: 767px) {
+    .logo-embed{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 
-<!--Some Feature -->
-<section class="single-feature p-3">
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="mb-2 col-lg-6 col-md-7 col-sm-7 text-sm-left text-center wow fadeInLeft" data-wow-delay="300ms">
-                <div class="image"><img alt="SEO" src="assets/images/connector.jpg"></div>
-            </div>
+.scroller__content, .about-image-wrapper {
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+}
+  
+  
+.scroller__content::-webkit-scrollbar {
+    display: none; 
+    scrollbar-width: none;
+}
+  
+.about-image-wrapper::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+}
 
-            <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
-                <div class="heading-title mb-4">
-                    <h3 class="darkcolor font-normal bottom30"> Are you a <span class="defaultcolor" style="color: #0085ad !important;">Connector</span>?</h3>
 
-                    <h4 class="darkcolor">Start sharing your power of connection - by giving coins to others.</h4>
-                </div>
+</style>
 
-                <a href="https://store.connectioncoin.com" target="_blank" class="button btnsecondary gradient-btn mb-sm-0 mb-4">Get Coins</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Some Feature ends-->
+<!-- Hotjar Tracking Code for whiteboard.is -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:102347,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+</head><body><div class="page-transition origin-top"></div><div style="display:flex" class="pre-loader"><div data-w-id="e4c77934-94a1-12c3-6726-66c4b4f2367f" data-animation-type="lottie" data-src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d77cc691bcdbd377236007b_Logo%20Pre-Loader.json" data-loop="0" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="3.0030028806881908" data-duration="0" data-ix2-initial-state="50" class="logo-animation lottie-animation"></div></div><div class="w-embed"><style>
 
-<!--Some Feature -->
-<section class="single-feature p-3">
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInLeft" data-wow-delay="300ms">
-                <div class="heading-title mb-4">
-                    <h3 class="darkcolor font-normal bottom30"> Received a <span class="defaultcolor" style="color: #0085ad !important;">Coin</span>?</h3>
+        .navigation-bar {
+            mix-blend-mode: difference;
+    }
 
-                    <h4 class="darkcolor">We’re so glad you’re here! Here’s what you need to do now. 
-                    </h4>
-                </div>
+</style></div><nav><div class="navigation-bar"><div class="container__navigation"><div class="nav-logo-wrapper"><div class="navigation__logo text-white w-embed"><a href="https://whiteboard.is/" class="logo-embed">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" pointer-events="none" height="13px" viewBox="0 0 194 17" version="1.1">
+      <g id="Brand" stroke="none" stroke-width="1" fill="White" fill-rule="evenodd">
+          <g id="Whiteboard" display="inline-block"  >
+              <path d="M5.2536431,16.6690998 L0,0.330900243 L3.54363378,0.330900243 L7.06666503,12.3880779 L10.4660812,0.330900243 L14.3805603,0.330900243 L17.8829891,12.4087591 L21.4266228,0.330900243 L24.9702566,0.330900243 L19.7166135,16.6690998 L16.1729797,16.6690998 L12.4233207,5.10827251 L8.79727688,16.6690998 L5.2536431,16.6690998 Z M30.1589225,16.6690998 L30.1589225,0.330900243 L33.372916,0.330900243 L33.372916,6.6593674 L41.1606693,6.6593674 L41.1606693,0.330900243 L44.3746627,0.330900243 L44.3746627,16.6690998 L41.1606693,16.6690998 L41.1606693,9.76155718 L33.372916,9.76155718 L33.372916,16.6690998 L30.1589225,16.6690998 Z M50.7170698,16.6690998 L50.7170698,0.330900243 L53.9310632,0.330900243 L53.9310632,16.6690998 L50.7170698,16.6690998 Z M64.9502429,16.6690998 L64.9502429,3.47445255 L58.8106913,3.47445255 L58.8106913,0.330900243 L74.3037878,0.330900243 L74.3037878,3.47445255 L68.1642363,3.47445255 L68.1642363,16.6690998 L64.9502429,16.6690998 Z M79.1834159,16.6690998 L79.1834159,0.330900243 L91.6479417,0.330900243 L91.6479417,3.45377129 L82.3974094,3.45377129 L82.3974094,6.94890511 L90.9268534,6.94890511 L90.9268534,9.90632603 L82.3974094,9.90632603 L82.3974094,13.5462287 L91.7509543,13.5462287 L91.7509543,16.6690998 L79.1834159,16.6690998 Z M108.04438,8.21046229 C110.022222,8.64476886 111.052348,10.1958637 111.052348,12.1605839 C111.052348,14.7664234 108.930288,16.6690998 105.901717,16.6690998 L97.8667337,16.6690998 L97.8667337,0.330900243 L105.366052,0.330900243 C108.477033,0.330900243 110.372465,2.02676399 110.372465,4.63260341 C110.372465,6.39051095 109.486556,7.69343066 108.04438,8.21046229 Z M101.080727,3.45377129 L101.080727,7.05231144 L104.315323,7.05231144 C106.210755,7.05231144 107.096664,6.49391727 107.096664,5.31508516 C107.096664,4.05352798 106.16955,3.45377129 104.21231,3.45377129 L101.080727,3.45377129 Z M104.809784,13.5462287 C106.808228,13.5462287 107.735342,12.9051095 107.735342,11.622871 C107.735342,10.4026764 106.828831,9.84428224 104.892194,9.84428224 L101.080727,9.84428224 L101.080727,13.5462287 L104.809784,13.5462287 Z M124.564433,17 C119.55802,17 116.138001,13.4428224 116.138001,8.41727494 C116.138001,3.49513382 119.55802,0 124.564433,0 C129.488435,0 132.867249,3.49513382 132.867249,8.41727494 C132.867249,13.4428224 129.488435,17 124.564433,17 Z M124.564433,13.877129 C127.551798,13.877129 129.570845,11.5815085 129.570845,8.31386861 C129.570845,5.27372263 127.551798,3.12287105 124.564433,3.12287105 C121.494657,3.12287105 119.434405,5.27372263 119.434405,8.31386861 C119.434405,11.5815085 121.494657,13.877129 124.564433,13.877129 Z M136.345906,16.6690998 L143.453776,0.330900243 L147.038614,0.330900243 L154.146484,16.6690998 L150.685261,16.6690998 L149.243084,13.256691 L141.249306,13.256691 L139.807129,16.6690998 L136.345906,16.6690998 Z M142.567867,10.13382 L147.924523,10.13382 L145.266798,3.88807786 L142.567867,10.13382 Z M159.232138,16.6690998 L159.232138,0.330900243 L166.772661,0.330900243 C170.336897,0.330900243 172.335342,2.21289538 172.335342,5.39781022 C172.335342,7.42457421 171.428831,8.76885645 169.904244,9.4513382 C171.01678,9.78223844 171.593651,10.526764 171.820279,11.9537713 C172.170522,14.270073 171.964496,14.973236 172.623777,16.4622871 L172.623777,16.6690998 L169.224361,16.6690998 C168.81231,15.6970803 168.7299,14.3734793 168.523875,12.8844282 C168.256042,10.8783455 168.008812,10.4647202 165.969162,10.4647202 L162.446131,10.4647202 L162.446131,16.6690998 L159.232138,16.6690998 Z M162.446131,7.65206813 L166.236995,7.65206813 C168.15303,7.65206813 169.018336,6.86618005 169.018336,5.54257908 C169.018336,4.23965937 168.111825,3.45377129 166.133983,3.45377129 L162.446131,3.45377129 L162.446131,7.65206813 Z M178.451121,16.6690998 L178.451121,0.330900243 L185.476581,0.330900243 C190.565404,0.330900243 193.8,3.3296837 193.8,8.47931873 C193.8,13.56691 190.482994,16.6690998 185.476581,16.6690998 L178.451121,16.6690998 Z M181.665115,13.7737226 L185.476581,13.7737226 C188.628767,13.7737226 190.482994,11.8090024 190.482994,8.45863747 C190.482994,5.1703163 188.628767,3.22627737 185.476581,3.22627737 L181.665115,3.22627737 L181.665115,13.7737226 Z" id="WHITEBOARD"/>
+          </g>
+      </g>
+  </svg>
+</a></div></div><div class="monogram-logo w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="23px" viewBox="0 0 60 23" version="1.1">
+        <g fill="#FFFFFF">
+            <polygon id="Fill-1" points="0.295454545 5.99960742 6.29529752 12 12.2954545 5.99960742 6.29529752 0"/>
+            <polygon id="Fill-2" points="29.405331 0 12.2954545 17.1099591 18.1855781 23 35.2954545 5.88988674"/>
+            <polygon id="Fill-3" points="47.2954545 5.99952891 53.2952975 12 59.2954545 5.99952891 53.2952975 0"/>
+            <polygon id="Fill-4" points="35.2954545 17.0000785 41.2954545 23 47.2954545 17.0000785 41.2954545 11"/>
+        </g>
+</svg></div><div data-w-id="4308958d-29fd-634a-3e0e-efa1e3bf13af" class="navigation__menu-icon static-icon"><div class="menu__line top-menu-line white-bg"></div><div class="menu__line bottom-menu-line white-bg"></div></div></div></div><div class="navigation__wrapper"><div class="nav-menu-inner"><div class="container__navigation inner-nav-container"><div class="nav-logo-wrapper"><div class="navigation__logo w-embed"><a href="https://whiteboard.is/" class="logo-embed">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" pointer-events="none" height="13px" viewBox="0 0 194 17" version="1.1">
+      <g id="Brand" stroke="none" stroke-width="1" fill="white" fill-rule="evenodd">
+          <g id="Whiteboard" display="inline-block"  >
+              <path d="M5.2536431,16.6690998 L0,0.330900243 L3.54363378,0.330900243 L7.06666503,12.3880779 L10.4660812,0.330900243 L14.3805603,0.330900243 L17.8829891,12.4087591 L21.4266228,0.330900243 L24.9702566,0.330900243 L19.7166135,16.6690998 L16.1729797,16.6690998 L12.4233207,5.10827251 L8.79727688,16.6690998 L5.2536431,16.6690998 Z M30.1589225,16.6690998 L30.1589225,0.330900243 L33.372916,0.330900243 L33.372916,6.6593674 L41.1606693,6.6593674 L41.1606693,0.330900243 L44.3746627,0.330900243 L44.3746627,16.6690998 L41.1606693,16.6690998 L41.1606693,9.76155718 L33.372916,9.76155718 L33.372916,16.6690998 L30.1589225,16.6690998 Z M50.7170698,16.6690998 L50.7170698,0.330900243 L53.9310632,0.330900243 L53.9310632,16.6690998 L50.7170698,16.6690998 Z M64.9502429,16.6690998 L64.9502429,3.47445255 L58.8106913,3.47445255 L58.8106913,0.330900243 L74.3037878,0.330900243 L74.3037878,3.47445255 L68.1642363,3.47445255 L68.1642363,16.6690998 L64.9502429,16.6690998 Z M79.1834159,16.6690998 L79.1834159,0.330900243 L91.6479417,0.330900243 L91.6479417,3.45377129 L82.3974094,3.45377129 L82.3974094,6.94890511 L90.9268534,6.94890511 L90.9268534,9.90632603 L82.3974094,9.90632603 L82.3974094,13.5462287 L91.7509543,13.5462287 L91.7509543,16.6690998 L79.1834159,16.6690998 Z M108.04438,8.21046229 C110.022222,8.64476886 111.052348,10.1958637 111.052348,12.1605839 C111.052348,14.7664234 108.930288,16.6690998 105.901717,16.6690998 L97.8667337,16.6690998 L97.8667337,0.330900243 L105.366052,0.330900243 C108.477033,0.330900243 110.372465,2.02676399 110.372465,4.63260341 C110.372465,6.39051095 109.486556,7.69343066 108.04438,8.21046229 Z M101.080727,3.45377129 L101.080727,7.05231144 L104.315323,7.05231144 C106.210755,7.05231144 107.096664,6.49391727 107.096664,5.31508516 C107.096664,4.05352798 106.16955,3.45377129 104.21231,3.45377129 L101.080727,3.45377129 Z M104.809784,13.5462287 C106.808228,13.5462287 107.735342,12.9051095 107.735342,11.622871 C107.735342,10.4026764 106.828831,9.84428224 104.892194,9.84428224 L101.080727,9.84428224 L101.080727,13.5462287 L104.809784,13.5462287 Z M124.564433,17 C119.55802,17 116.138001,13.4428224 116.138001,8.41727494 C116.138001,3.49513382 119.55802,0 124.564433,0 C129.488435,0 132.867249,3.49513382 132.867249,8.41727494 C132.867249,13.4428224 129.488435,17 124.564433,17 Z M124.564433,13.877129 C127.551798,13.877129 129.570845,11.5815085 129.570845,8.31386861 C129.570845,5.27372263 127.551798,3.12287105 124.564433,3.12287105 C121.494657,3.12287105 119.434405,5.27372263 119.434405,8.31386861 C119.434405,11.5815085 121.494657,13.877129 124.564433,13.877129 Z M136.345906,16.6690998 L143.453776,0.330900243 L147.038614,0.330900243 L154.146484,16.6690998 L150.685261,16.6690998 L149.243084,13.256691 L141.249306,13.256691 L139.807129,16.6690998 L136.345906,16.6690998 Z M142.567867,10.13382 L147.924523,10.13382 L145.266798,3.88807786 L142.567867,10.13382 Z M159.232138,16.6690998 L159.232138,0.330900243 L166.772661,0.330900243 C170.336897,0.330900243 172.335342,2.21289538 172.335342,5.39781022 C172.335342,7.42457421 171.428831,8.76885645 169.904244,9.4513382 C171.01678,9.78223844 171.593651,10.526764 171.820279,11.9537713 C172.170522,14.270073 171.964496,14.973236 172.623777,16.4622871 L172.623777,16.6690998 L169.224361,16.6690998 C168.81231,15.6970803 168.7299,14.3734793 168.523875,12.8844282 C168.256042,10.8783455 168.008812,10.4647202 165.969162,10.4647202 L162.446131,10.4647202 L162.446131,16.6690998 L159.232138,16.6690998 Z M162.446131,7.65206813 L166.236995,7.65206813 C168.15303,7.65206813 169.018336,6.86618005 169.018336,5.54257908 C169.018336,4.23965937 168.111825,3.45377129 166.133983,3.45377129 L162.446131,3.45377129 L162.446131,7.65206813 Z M178.451121,16.6690998 L178.451121,0.330900243 L185.476581,0.330900243 C190.565404,0.330900243 193.8,3.3296837 193.8,8.47931873 C193.8,13.56691 190.482994,16.6690998 185.476581,16.6690998 L178.451121,16.6690998 Z M181.665115,13.7737226 L185.476581,13.7737226 C188.628767,13.7737226 190.482994,11.8090024 190.482994,8.45863747 C190.482994,5.1703163 188.628767,3.22627737 185.476581,3.22627737 L181.665115,3.22627737 L181.665115,13.7737226 Z" id="WHITEBOARD"/>
+          </g>
+      </g>
+  </svg>
+</a></div></div><div data-w-id="4308958d-29fd-634a-3e0e-efa1e3bf13b7" class="navigation__menu-icon"><div class="menu-inner-line top-inner-line"></div><div class="menu-inner-line bottom-inner-line"></div></div><div class="monogram-logo menu-monogram w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="23px" viewBox="0 0 60 23" version="1.1">
+        <g fill="#FFFFFF">
+            <polygon id="Fill-5" points="0.295454545 5.99960742 6.29529752 12 12.2954545 5.99960742 6.29529752 0"/>
+            <polygon id="Fill-6" points="29.405331 0 12.2954545 17.1099591 18.1855781 23 35.2954545 5.88988674"/>
+            <polygon id="Fill-7" points="47.2954545 5.99952891 53.2952975 12 59.2954545 5.99952891 53.2952975 0"/>
+            <polygon id="Fill-8" points="35.2954545 17.0000785 41.2954545 23 47.2954545 17.0000785 41.2954545 11"/>
+        </g>
+</svg></div></div><div class="navigation-links__wrapper"><div class="navigation-links"><a href="/work" class="navigation_link w-inline-block"><h1 class="navigation__link-text">Work</h1></a><a href="/about" class="navigation_link w-inline-block"><h1 class="navigation__link-text">About</h1></a><a href="/services" class="navigation_link w-inline-block"><h1 class="navigation__link-text">Services</h1></a><a href="/war-rooms" class="navigation_link w-inline-block"><h1 class="navigation__link-text">War Rooms</h1></a><a href="/network" class="navigation_link w-inline-block"><h1 class="navigation__link-text">Network</h1></a><a href="/news" class="navigation_link w-inline-block"><h1 class="navigation__link-text">News</h1></a></div><div class="navigation-content__wrapper left"><div class="navigation-content__block mb-100"><h6 class="text-white">New Business</h6><p class="white nav mb-0">Orienne Gage<br/>orienne@whiteboard.is</p><div class="menu-get-started-wrapper"><div class="menu-form-link">GET STARTED ↗</div><div class="typeform-script w-embed w-script"><a class="typeform-share link" href="https://whiteboardis.typeform.com/to/Lspf6D" data-mode="popup" style="background:none; padding-right: 0px; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" data-submit-close-delay="1" target="_blank"></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></div></div></div><div class="navigation-content__block"><h6 class="text-white">Say Hello</h6><p class="white nav">hello@whiteboard.is<br/>(615) 953-0080</p></div><div class="navigation-content__block opacity__70"><a href="https://www.google.com/maps/dir//701+Cherry+St+%23200Chattanooga,+Chattanooga,+TN+37402/@35.048187,-85.3108457,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88605e6359c611bb:0x1280438dd64a04cf!2m2!1d-85.308657!2d35.048187" target="_blank" class="nav__link-block w-inline-block"><p class="nav-menu__secondary-links address">701 Cherry Street, Suite 200<br/>Chattanooga, Tennessee 37402</p><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d6534f6ffdb4624632f4bdb_icon__open-link.svg" alt="" class="nav-menu-arrow"/></a><div class="nav-social-grid"><a href="http://www.twitter.com/whiteboardis" target="_blank" class="nav-menu__secondary-links">Twitter</a><a href="https://www.instagram.com/whiteboard.is/" target="_blank" class="nav-menu__secondary-links">Instagram</a><a href="https://dribbble.com/whiteboard_is" target="_blank" class="nav-menu__secondary-links">Dribbble</a></div></div></div></div></div></div></nav><header data-w-id="4c78ca5f-eaab-75d7-d14d-02d0264473d9" class="section hero"><div data-w-id="dc16a617-0180-9938-7a3a-c7281eaf3685" class="container fixed-hero"><div class="hero-content-wrapper"><div class="hero__text-wrapper max-width-974 w-clearfix"><div class="home-headline w-embed"><h1>
+<span class="home-headline hero__line-1">We empower <span class="home-hero__hover-link">visionaries<sup style="vertical-align: super; font-size: 40%;">1</sup></span><br>to lead meaningful brands.</span>
+</h1></div><h1 class="centered size-80 display-none w-clearfix"><span style="-webkit-transform:translate3d(0, 75PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="hero__line-1">We help leaders</span> <span data-w-id="dc16a617-0180-9938-7a3a-c7281eaf3691" class="home-hero__hover-link">leverage the internet</span><span class="hero-superscript">1</span><br/><span style="opacity:0;-webkit-transform:translate3d(0, 75PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 75PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 75PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 75PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="hero__line-3">to advance the common good</span></h1></div></div><div class="home-hero__video-container"><div data-delay="4000" data-animation="cross" data-autoplay="1" data-disable-swipe="1" data-duration="1000" data-infinite="1" class="home-slider w-slider"><div class="home-slider-mask w-slider-mask"><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-1-home"><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Gabe Lyons and his team at Q, reimagine their creative and technological initiatives and built a hosting portal for cities all over the world to facilitate local gatherings.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-2-home"><div class="slider-gradient-overlay"></div><div></div><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Jonathan Golden reimagine the Land of a Thousand Hills digital experience, packaging design, and go-to-market with their door-to-door coffee subscription service.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-3-home"><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Jessica Kim and the ianacare team go-to-market with their caregiving app by designing their brand and digital presence.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-4-home"><div class="slider-gradient-overlay"></div><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Chris and Jennifer Hadsell reimagine their non-profit brand, Retouch, and lead capital campaigns for new schools to be built in rural Africa.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-5-home"><div class="slider-gradient-overlay"></div><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Nate Hybl capture the heartbeat of gusto! and bring to life a digital experience that is guaranteed to make you hungry.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-6-home"><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped the team at Children&#x27;s Nutrition Program of Haiti shape their story, redesign their website, and launch a flagship fundraising campaign, She Saves the World.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-7-home"><div class="slider-gradient-overlay"></div><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Jesse Kallman&#x27;s team at Airbus Aerial go-to-market with their new aerospace technologies brand by capturing media and launching their new website to the public.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-8-home"><div class="slider-gradient-overlay"></div><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Garrett Gravesen and Kevin Scott launch Chick-fil-A Leader Academy, a national high-school leadership program focused on impact through action.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-9-home"><div class="slider-gradient-overlay"></div><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped the Rachael Myers, Amanda Bible Williams, and the She/He Reads Truth reimagine their digital ecosystem by launching a new iOS and Android app to their community and new website.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-10-home"><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Blake Canterbury launch Purposity, a not-for-profit app that connects the physical needs of people, vetted through established local nonprofits, with locals who want to help through just a few clicks.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-11-home"><div class="slider-gradient-overlay"></div><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Raj Panjabi&#x27;s team at Last Mile Health refine their logo, design and build an award-winning website, and launched a microsite on the night of his global TED talk.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-12-home"><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped George Brown and Uli Becker launch Aegle Gear, athletic-inspired healthcare apparel built to perform and protect.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-13-home"><div class="slider-gradient-overlay"></div><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Daniel Cline and the team at Catalyst reimagine the theme for their annual conference and led their digital marketing playbook, end-to-end.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-14-home"><div class="slider-gradient-overlay"></div><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Andy Hart reimagine the Staxi brand in the marketplace and empowered their team with a new website, design system, messaging, sales toolkit, and more.</div></div></div></div><div class="home-slider__slide w-slide"><div class="slide-bg-photo slide-15-home"><div class="slide-caption-wrapper"><div class="p-large slide-text">We helped Travis Mason lead multiple creative initiatives for multiple Global 500 companies.</div></div></div></div></div><div class="display-none w-slider-arrow-left"><div class="w-icon-slider-left"></div></div><div class="display-none w-slider-arrow-right"><div class="w-icon-slider-right"></div></div><div class="display-none w-slider-nav w-round"></div></div></div></div></header><div class="bg-white"><div class="page-container bg-transparent"><div class="section z-2 bg-transparent"><div class="centered-text"><h3 class="mb-16 slide-bottom-1">What We Do</h3><p class="slide-bottom-1">We combine the disciplines of a strategy firm with the superpowers of a creative agency. Across all facets of the internet—websites, apps, branding, marketing automation—our team helps you lead digital transformation, end-to-end.</p><div class="type-formlink slide-bottom-1"><div>Get Started</div><div class="typeform-script w-embed w-script"><a class="typeform-share link" href="https://whiteboardis.typeform.com/to/Lspf6D" data-mode="popup" style="background:none; padding-right: 0px; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" data-submit-close-delay="1" target="_blank"></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></div></div></div></div></div><div class="section"><div class="featured-project"><div data-w-id="e618a01f-bbca-8706-0940-631421870643" class="featured-parallax-wrapper"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1ce08ff88ca258d368518_featured__purposity-2.jpg" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1ce08ff88ca258d368518_featured__purposity-2-p-500.jpeg 500w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1ce08ff88ca258d368518_featured__purposity-2-p-1080.jpeg 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1ce08ff88ca258d368518_featured__purposity-2-p-1600.jpeg 1600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1ce08ff88ca258d368518_featured__purposity-2-p-2000.jpeg 2000w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1ce08ff88ca258d368518_featured__purposity-2-p-2600.jpeg 2600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1ce08ff88ca258d368518_featured__purposity-2.jpg 2880w" sizes="100vw" alt="" class="featured_bottom-image image-100"/><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cdbe15d7a150d99ce8f6_featured__purposity-1.png" width="1332" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cdbe15d7a150d99ce8f6_featured__purposity-1-p-500.png 500w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cdbe15d7a150d99ce8f6_featured__purposity-1-p-800.png 800w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cdbe15d7a150d99ce8f6_featured__purposity-1-p-1080.png 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cdbe15d7a150d99ce8f6_featured__purposity-1-p-1600.png 1600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cdbe15d7a150d99ce8f6_featured__purposity-1-p-2000.png 2000w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cdbe15d7a150d99ce8f6_featured__purposity-1-p-2600.png 2600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cdbe15d7a150d99ce8f6_featured__purposity-1.png 2664w" sizes="100vw" alt="" class="featured__top-image"/></div><div class="page-container bg-transparent"><div class="featured-content-wrapper"><h3 class="mb-16">Purposity</h3><p>Building a not-for-profit app that connects the physical needs of people, vetted through established local nonprofits, with locals who want to help through just a few clicks.</p><a data-w-id="b8652acc-67b3-b0f3-df8f-514cec50ca8c" href="/work/purposity" class="portfolio-link">Visit Case Study</a></div></div></div><div class="featured-project"><div class="video-wrapper"><div class="page-container"><div class="ratio-56"><div data-poster-url="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbc9c37422ff62676d3e65b_WinShapeCamps-poster-00001.jpg" data-video-urls="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbc9c37422ff62676d3e65b_WinShapeCamps-transcode.mp4,https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbc9c37422ff62676d3e65b_WinShapeCamps-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="video-absolute w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbc9c37422ff62676d3e65b_WinShapeCamps-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbc9c37422ff62676d3e65b_WinShapeCamps-transcode.mp4" data-wf-ignore="true"/><source src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbc9c37422ff62676d3e65b_WinShapeCamps-transcode.webm" data-wf-ignore="true"/></video></div></div></div></div><div class="page-container bg-transparent"><div class="featured-content-wrapper"><h3 class="mb-16">WinShape Camps</h3><p>WinShape creates next-level camps that turn summers into meaningful experiences for campers and families⁠. Our mandate was to take their digital presence to the next-level.</p><a data-w-id="2e2d533f-d7e8-28c8-78ff-7f9c3c33c278" href="/work/winshape-camps" class="portfolio-link">Visit Case Study</a></div></div></div><div class="featured-project"><div data-w-id="eda40f58-fa10-ba9f-b254-0d09348cbac3" class="featured-parallax-wrapper"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc052898b3107608395780a_featured__gusto-2.jpg" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc052898b3107608395780a_featured__gusto-2-p-1080.jpeg 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc052898b3107608395780a_featured__gusto-2-p-1600.jpeg 1600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc052898b3107608395780a_featured__gusto-2-p-2000.jpeg 2000w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc052898b3107608395780a_featured__gusto-2-p-2600.jpeg 2600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc052898b3107608395780a_featured__gusto-2.jpg 2880w" sizes="100vw" alt="" class="featured_bottom-image image-100"/><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc05325fe1cbdcfcb96fc53_featured__gusto-1.png" width="1350" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc05325fe1cbdcfcb96fc53_featured__gusto-1-p-500.png 500w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc05325fe1cbdcfcb96fc53_featured__gusto-1-p-800.png 800w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc05325fe1cbdcfcb96fc53_featured__gusto-1-p-1080.png 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc05325fe1cbdcfcb96fc53_featured__gusto-1-p-1600.png 1600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc05325fe1cbdcfcb96fc53_featured__gusto-1-p-2000.png 2000w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc05325fe1cbdcfcb96fc53_featured__gusto-1-p-2600.png 2600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc05325fe1cbdcfcb96fc53_featured__gusto-1.png 2700w" sizes="100vw" alt="" class="featured__top-image"/></div><div class="page-container bg-transparent"><div class="featured-content-wrapper"><h3 class="mb-16">gusto!</h3><p>Translating a culinary awakening <br/>into a digital experience.</p><a data-w-id="eda40f58-fa10-ba9f-b254-0d09348cbacd" href="/work/gusto" class="portfolio-link">Visit Case Study</a></div></div></div><div class="featured-project"><div class="video-wrapper"><div class="page-container"><div class="ratio-56"><div data-poster-url="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cbdc08f240b88b415943_Oust-trimmed-poster-00001.jpg" data-video-urls="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cbdc08f240b88b415943_Oust-trimmed-transcode.mp4,https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cbdc08f240b88b415943_Oust-trimmed-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="video-absolute w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cbdc08f240b88b415943_Oust-trimmed-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cbdc08f240b88b415943_Oust-trimmed-transcode.mp4" data-wf-ignore="true"/><source src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc1cbdc08f240b88b415943_Oust-trimmed-transcode.webm" data-wf-ignore="true"/></video></div></div></div></div><div class="page-container bg-transparent"><div class="featured-content-wrapper"><h3 class="mb-16">Oust</h3><p>Creating the digital home for an upstart creative agency and startup accelerator that helps promising founders bring their ideas to life.</p><a data-w-id="2f51a198-5087-ebb1-a9fb-487fad10eb5d" href="/work/oust" class="portfolio-link">Visit Case Study</a></div></div></div></div><div class="section home"><div class="container__content clients"><div class="feature__text invert-margin"><h3 class="bold">Our clients create solutions, celebrate entrepreneurship, stand for justice, and advance the common good.</h3></div><div class="featured__brands"><div class="w-dyn-list"><div class="clients__list w-dyn-items"><div data-w-id="a50fc631-e96b-520c-9e32-87e03909e5a2" class="clients_logo w-dyn-item"><img style="opacity:0" src="https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5ccc1dd76bbefe1b6dcf567e_cfa.svg" alt="" class="logo"/></div><div data-w-id="a50fc631-e96b-520c-9e32-87e03909e5a2" class="clients_logo w-dyn-item"><img style="opacity:0" src="https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5ccc1dd76bbefe287fcf567d_Google_2015_logo.svg" alt="" class="logo"/></div><div data-w-id="a50fc631-e96b-520c-9e32-87e03909e5a2" class="clients_logo w-dyn-item"><img style="opacity:0" src="https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5ccc1dd76bbefe18d0cf567c_pl.svg" alt="" class="logo"/></div><div data-w-id="a50fc631-e96b-520c-9e32-87e03909e5a2" class="clients_logo w-dyn-item"><img style="opacity:0" src="https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5ccc1dd76bbefe3224cf567a_fh.svg" alt="" class="logo"/></div><div data-w-id="a50fc631-e96b-520c-9e32-87e03909e5a2" class="clients_logo w-dyn-item"><img style="opacity:0" src="https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5ccc1dd76bbefe7755cf5676_barna.svg" alt="" class="logo"/></div><div data-w-id="a50fc631-e96b-520c-9e32-87e03909e5a2" class="clients_logo w-dyn-item"><img style="opacity:0" src="https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5cd9d3689d648663e01a7e9f_ncr.svg" alt="" class="logo"/></div><div data-w-id="a50fc631-e96b-520c-9e32-87e03909e5a2" class="clients_logo w-dyn-item"><img style="opacity:0" src="https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5ccc1dd76bbefe65e5cf5654_airbus.svg" alt="" class="logo"/></div><div data-w-id="a50fc631-e96b-520c-9e32-87e03909e5a2" class="clients_logo w-dyn-item"><img style="opacity:0" src="https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5ccc1dd76bbefeb64ccf567b_hrw.svg" alt="" class="logo"/></div><div data-w-id="a50fc631-e96b-520c-9e32-87e03909e5a2" class="clients_logo w-dyn-item"><img style="opacity:0" src="https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5cd9d39fad8fa5f986be804e_mailchimp.svg" alt="" class="logo"/></div><div data-w-id="a50fc631-e96b-520c-9e32-87e03909e5a2" class="clients_logo w-dyn-item"><img style="opacity:0" src="https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5cd9d5bd376c850dafc608a6_legacybox.svg" alt="" class="logo"/></div></div></div></div><div class="featured__cta"><a href="/work" class="link-hover-one">SEE MORE WORK</a></div></div></div><div class="section home pt-142"><div class="page-container bg-transparent"><div class="centered-text"><h3 class="mb-16 slide-bottom-1">About Us</h3><p class="slide-bottom-1">Since 2010, our work has merged purpose-driven people, meaningful creativity, inspired technology and the power of the internet to facilitate positive cultural change.</p><div class="mt-25 slide-bottom-1"><a href="/about" class="link-hover-one display-block">Who We Are</a></div><div class="mt-25 slide-bottom-1"><a href="/network" class="link-hover-one display-block">Join Our Network</a></div></div></div></div><div data-w-id="7c8f51e5-5a1f-6c2f-6528-bfc45eed5fd1" class="about-image-wrapper"><div class="about-carousel"><div class="carousel-flex-child"><div class="about-carousel-image-wrapper"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3ed4cdb0cf524fb0e60f_about-carousel-1.jpg" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3ed4cdb0cf524fb0e60f_about-carousel-1-p-500.jpeg 500w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3ed4cdb0cf524fb0e60f_about-carousel-1-p-800.jpeg 800w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3ed4cdb0cf524fb0e60f_about-carousel-1-p-1080.jpeg 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3ed4cdb0cf524fb0e60f_about-carousel-1.jpg 1371w" sizes="(max-width: 767px) 61vw, 31vw" alt="" class="image-100 exceed"/></div></div><div class="carousel-flex-child"><div class="about-carousel-image-wrapper"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d76b04e344fac9f9107b6c6_Home__About%20Us.jpg" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d76b04e344fac9f9107b6c6_Home__About%20Us-p-1080.jpeg 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d76b04e344fac9f9107b6c6_Home__About%20Us-p-1600.jpeg 1600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d76b04e344fac9f9107b6c6_Home__About%20Us-p-2000.jpeg 2000w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d76b04e344fac9f9107b6c6_Home__About%20Us.jpg 2500w" sizes="(max-width: 767px) 61vw, 31vw" alt="" class="image-100 exceed"/></div></div><div class="carousel-flex-child"><div class="about-carousel-image-wrapper"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3e78cdb0cf7c2fb0e4eb_about-carousel-3.jpg" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3e78cdb0cf7c2fb0e4eb_about-carousel-3-p-500.jpeg 500w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3e78cdb0cf7c2fb0e4eb_about-carousel-3-p-800.jpeg 800w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3e78cdb0cf7c2fb0e4eb_about-carousel-3-p-1080.jpeg 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3e78cdb0cf7c2fb0e4eb_about-carousel-3.jpg 1371w" sizes="(max-width: 767px) 61vw, 31vw" alt="" class="image-100 exceed"/></div></div><div class="carousel-flex-child"><div class="about-carousel-image-wrapper"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d829aca92d464a6c942db2a_Whiteboard-7.jpg" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d829aca92d464a6c942db2a_Whiteboard-7-p-1080.jpeg 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d829aca92d464a6c942db2a_Whiteboard-7-p-1600.jpeg 1600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d829aca92d464a6c942db2a_Whiteboard-7.jpg 2000w" sizes="(max-width: 767px) 61vw, 31vw" alt="" class="image-100 exceed"/></div></div><div class="carousel-flex-child"><div class="about-carousel-image-wrapper"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1001b61964ce5de86d9_Whiteboard-16.jpg" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1001b61964ce5de86d9_Whiteboard-16-p-500.jpeg 500w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1001b61964ce5de86d9_Whiteboard-16-p-800.jpeg 800w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1001b61964ce5de86d9_Whiteboard-16-p-1080.jpeg 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1001b61964ce5de86d9_Whiteboard-16-p-1600.jpeg 1600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1001b61964ce5de86d9_Whiteboard-16.jpg 6567w" sizes="(max-width: 767px) 61vw, 31vw" alt="" class="image-100 exceed"/></div></div><div class="carousel-flex-child"><div class="about-carousel-image-wrapper"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3e6f11ce86608fa2bdb4_about-carousel-2.jpg" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3e6f11ce86608fa2bdb4_about-carousel-2-p-500.jpeg 500w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3e6f11ce86608fa2bdb4_about-carousel-2-p-800.jpeg 800w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3e6f11ce86608fa2bdb4_about-carousel-2-p-1080.jpeg 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dbb3e6f11ce86608fa2bdb4_about-carousel-2.jpg 1371w" sizes="(max-width: 767px) 61vw, 31vw" alt="" class="image-100 exceed"/></div></div><div class="carousel-flex-child"><div class="about-carousel-image-wrapper"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d803a7eddf52861eaccabba_Whiteboard-29.jpg" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d803a7eddf52861eaccabba_Whiteboard-29-p-500.jpeg 500w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d803a7eddf52861eaccabba_Whiteboard-29-p-1080.jpeg 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d803a7eddf52861eaccabba_Whiteboard-29-p-1600.jpeg 1600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d803a7eddf52861eaccabba_Whiteboard-29.jpg 1982w" sizes="(max-width: 767px) 61vw, 31vw" alt="" class="image-100 exceed"/></div></div><div class="carousel-flex-child"><div class="about-carousel-image-wrapper"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1291464765eb0b0577d_Whiteboard-31.jpg" srcset="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1291464765eb0b0577d_Whiteboard-31-p-500.jpeg 500w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1291464765eb0b0577d_Whiteboard-31-p-800.jpeg 800w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1291464765eb0b0577d_Whiteboard-31-p-1080.jpeg 1080w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1291464765eb0b0577d_Whiteboard-31-p-1600.jpeg 1600w, https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5dc2d1291464765eb0b0577d_Whiteboard-31.jpg 6720w" sizes="(max-width: 767px) 61vw, 31vw" alt="" class="image-100 exceed"/></div></div><div class="carousel-placeholder"></div></div></div></div><div data-w-id="182e994e-52d7-fbf8-9268-afebf1b9e366" class="bg-black-wrapper"><div class="page-container bg-transparent"><div class="section blog-cards-dev home"><div class="blog-cards__container"><div class="w-layout-grid curated-content__grid"><div id="w-node-a0310f099e28-cf76a7ad" class="bravo w-dyn-list"><div class="w-dyn-items"><div class="w-dyn-item"><a href="/blog/whiteboard-opens-offices-in-atlantas-historic-west-end-neighborhood-and-entrepreneurial-training-hub-plywood-place" class="blog-card__article blog-hover-animate slide-bottom-1 w-inline-block"><div class="grid-image-wrapper"><div style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5e5db78b6916e50a0a9c1ca1_atlanta-announcement.jpg&quot;)" class="blog-card__article__image height-100"></div></div><div class="blog-card__article__text"><div class="blog-card__article__category text-white">News</div><div class="blog-card__article__headline dash text-white">—</div><div class="blog-card__article__headline text-white">Whiteboard Opens Offices in Atlanta’s Historic West End Neighborhood</div></div></a></div></div></div><div id="w-node-a0310f099e36-cf76a7ad" class="charlie slide-bottom-2 w-dyn-list"><div class="w-dyn-items"><div class="w-dyn-item"><a href="/blog/whiteboards-2019-impact-report" class="blog-card__article blog-hover-animate w-inline-block"><div class="grid-image-wrapper"><div style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5e39a0aa14d7050e3ab61fd0_Whiteboard-19.jpg&quot;)" class="blog-card__article__image height-100"></div></div><div class="blog-card__article__text"><div class="blog-card__article__category text-white">Community</div><div class="blog-card__article__headline dash text-white">—</div><div class="blog-card__article__headline text-white">Whiteboard&#x27;s 2019 Impact Report</div></div></a></div></div></div><div id="w-node-a0310f099e44-cf76a7ad" class="delta w-dyn-list"><div class="w-dyn-items"><div class="w-dyn-item"><div class="words-we-live-by__item-wrapper delta slide-bottom-1"><h4>“Whiteboard is a creative agency built on purpose and serves as a perfect match for companies that deal with a new generation of consumers that care about the world.”</h4><div class="words-we-live-by__author-wrapper"><div style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5ccc5e9995cb621e71d737d5_uli-becker.png&quot;)" class="words-we-live-by__photo"></div><div class="words-we-live-by__name">Uli Becker</div><div class="wordes-we-live-by__subline">Former CEO, Reebok</div></div></div></div></div></div><div id="w-node-a0310f099e50-cf76a7ad" class="echo w-dyn-list"><div class="w-dyn-items"><div class="w-dyn-item"><a href="/blog/savannah-wallace" class="blog-card__article slide-bottom-2 blog-hover-animate w-inline-block"><div class="grid-image-wrapper"><div style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5d7ab60b45336fa82ab12242_savannah-wallace.jpg&quot;)" class="blog-card__article__image height-100"></div></div><div class="blog-card__article__text"><div class="blog-card__article__category text-white">Profile</div><div class="blog-card__article__headline dash text-white">—</div><div class="blog-card__article__headline text-white">Savannah Wallace named Director, Digital Projects</div></div></a></div></div></div><div id="w-node-a0310f099e5e-cf76a7ad" class="foxtrot w-dyn-list"><div class="w-dyn-items"><div class="w-dyn-item"><a href="/blog/purposity-launches-on-app-store-google-play-featured-in-forbes" class="blog-card__article slide-bottom-3 blog-hover-animate w-inline-block"><div class="grid-image-wrapper"><div style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5d7a401b9fa8820b2b43594a_purposity-2.jpg&quot;)" class="blog-card__article__image height-100"></div></div><div class="blog-card__article__text"><div class="blog-card__article__category text-white">Community</div><div class="blog-card__article__headline dash text-white">—</div><div class="blog-card__article__headline text-white">Purposity launches on App Store &amp; Google Play; featured in Forbes</div></div></a></div></div></div><div id="w-node-a0310f099e6c-cf76a7ad" class="golf w-dyn-list"><div class="w-dyn-items"><div class="w-dyn-item"><a href="/blog/purposity-reaches-2-250-needs-met-in-atlanta-2" class="blog-card__article blog-hover-animate slide-bottom-1 w-inline-block"><div class="grid-image-wrapper"><div style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5cd55be155eca20e999848d4_Praxis.jpg&quot;)" class="blog-card__article__image height-100"></div></div><div class="blog-card__article__text"><div class="blog-card__article__category text-white">Community</div><div class="blog-card__article__headline dash text-white">—</div><div class="blog-card__article__headline text-white">Whiteboard accepts invitation into Praxis Accelerator</div></div></a></div></div></div><div id="w-node-a0310f099e7a-cf76a7ad" class="hotel w-dyn-list"><div class="w-dyn-items"><div class="collection-item-2 slide-bottom-2 w-dyn-item"><h4 class="centered">“For a company like Whiteboard, whose stated purpose is to increase the greater good in the world, this was more than a marketing win — it was a spiritual win.”</h4><a href="https://mailchimp.com/partners/whiteboarding-better-world-case-study/" target="_blank" class="blog-card__hotel-link w-inline-block"><div style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5dc42c9b5426063b52797e03_Mailchimp_Logo-Vertical_White.png&quot;)" class="blog-card__quote-image"></div></a></div></div></div><div id="w-node-a0310f099e83-cf76a7ad" class="india w-dyn-list"><div class="w-dyn-items"><div class="w-dyn-item"><a href="/blog/eric-brown-launches-good-internet-manners-project" class="blog-card__article blog-hover-animate slide-bottom-1 w-inline-block"><div class="grid-image-wrapper"><div style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5cde0fb9e723eb743277a5fa_good-manners-banner.jpg&quot;)" class="blog-card__article__image height-100"></div></div><div class="blog-card__article__text"><div class="blog-card__article__category text-white">Community</div><div class="blog-card__article__headline dash text-white">—</div><div class="blog-card__article__headline text-white">Eric Brown launches Good Internet Manners</div></div></a></div></div></div><div id="w-node-a0310f099e91-cf76a7ad" class="juliet w-dyn-list"><div class="w-dyn-items"><div class="w-dyn-item"><div class="words-we-live-by__item-wrapper juliet slide-bottom-2"><h4>“Whiteboard not only has the technical knowledge to guide us through building our vision, their ideology so closely aligns with ours that they have become a seamless extension of our team.”</h4><div class="words-we-live-by__author-wrapper"><div style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5ccc5f3304516d2581dfd1b3_blake-canterbury.png&quot;)" class="words-we-live-by__photo"></div><div class="words-we-live-by__name">Blake Canterbury</div><div>Purposity</div></div></div></div></div></div><div id="w-node-a0310f099e9d-cf76a7ad" class="kilo w-dyn-list"><div class="w-dyn-items"><div class="w-dyn-item"><a href="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5d7a6b39e5f68d10f47cc499_Digital%20Stewardship%20Manifesto%20-%20Whiteboard.pdf" target="_blank" class="blog-card__article blog-hover-animate slide-bottom-3 w-inline-block"><div class="grid-image-wrapper"><div style="background-image:url(&quot;https://assets.website-files.com/5ccc1dd76bbefea30fcf55aa/5cd4e489592daa0ef03748f6_manifesto-mock-1.jpeg&quot;)" class="blog-card__article__image height-100"></div></div><div class="blog-card__article__text"><div class="blog-card__article__category text-white">Community</div><div class="blog-card__article__headline dash text-white">—</div><div class="blog-card__article__headline text-white">Whiteboard&#x27;s Digital Stewardship Manifesto</div></div></a></div></div></div></div></div></div></div><div style="opacity:0" class="bg-black"></div></div><div class="bg-white z-2"><div class="page-container"><div class="section home"><div class="container__content cta px-20"><div class="feature__text cta"><h2 class="h2-cambon slide-bottom-1">How can we leverage the internet to accomplish your mission?</h2></div><div class="featured__cta cta slide-bottom-1"><div class="type-formlink slide-bottom-1"><div>Get Started</div><div class="typeform-script w-embed w-script"><a class="typeform-share link" href="https://whiteboardis.typeform.com/to/Lspf6D" data-mode="popup" style="background:none; padding-right: 0px; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" data-submit-close-delay="1" target="_blank"></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></div></div></div></div></div></div></div><div class="footer-wrapper"><footer class="section footer"><div class="container__content footer"><div class="footer__top"><div class="scroller__overlay"></div><div data-w-id="a4ede610-83dd-448d-eeb7-38e4a60e5b9b" class="scroller__content"><div class="scroller__block"><a href="/services" class="scroll-nav__link services w-inline-block"><h2>Services</h2><div class="footer__underline-wrapper"><div class="footer-underline"><div class="underline-inner"></div></div><div>01</div></div></a></div><div class="scroller__block"><a href="/about" class="scroll-nav__link about w-inline-block"><h2>About</h2><div class="footer__underline-wrapper"><div class="footer-underline"><div class="underline-inner"></div></div><div>02</div></div></a></div><div class="scroller__block"><a href="http://jobs.whiteboard.is/" target="_blank" class="scroll-nav__link careers w-inline-block"><h2>Careers</h2><div class="footer__underline-wrapper"><div class="footer-underline"><div class="underline-inner"></div></div><div>03</div></div></a></div><div class="scroller__block"><a href="/news" class="scroll-nav__link news w-inline-block"><h2>News</h2><div class="footer__underline-wrapper"><div class="footer-underline"><div class="underline-inner"></div></div><div>04</div></div></a></div><div class="scroller__block"><a href="https://www.instagram.com/whiteboard.is/" target="_blank" class="scroll-nav__link instagram w-inline-block"><h2>Instagram</h2><div class="footer__underline-wrapper"><div class="footer-underline"><div class="underline-inner"></div></div><div>05</div></div></a></div><div class="scroller__block"><a href="https://dribbble.com/whiteboard_is" target="_blank" class="scroll-nav__link dribbble w-inline-block"><h2>Dribbble</h2><div class="footer__underline-wrapper"><div class="footer-underline"><div class="underline-inner"></div></div><div>06</div></div></a></div><div class="scroller__block"><a href="https://twitter.com/whiteboardis" target="_blank" class="scroll-nav__link twitter w-inline-block"><h2>Twitter</h2><div class="footer__underline-wrapper"><div class="footer-underline"><div class="underline-inner"></div></div><div>07</div></div></a></div></div></div><div class="sub-footer"><div class="disclaimer-wrapper"><div class="footer__copyright w-embed w-script">&copy; Whiteboard <script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script></div><a href="/contact" class="footer-links">Contact</a><a href="/u/privacy" class="footer-links">Privacy Policy</a></div><div class="w-layout-grid badges-grid"><a id="w-node-d30aa995431d-28503731" href="/partners/bcorp" class="no-arrow w-inline-block"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5ccc1dd76bbefefd62cf55f8_bcorp.png" alt="" class="footer-badge"/></a><a id="w-node-d30aa995431f-28503731" href="/partners/mailchimp" class="no-arrow w-inline-block"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5ccc1dd76bbefe5c7dcf55f7_mailchimp-partner.png" alt="" class="footer-badge"/></a><a id="w-node-d30aa9954321-28503731" href="/partners/creative-mornings" class="no-arrow w-inline-block"><img src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/5ccc1dd76bbefed451cf55f6_cha.svg" alt="" class="footer-badge"/></a></div></div></div><div class="video-fade-overlay"></div></footer></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ccc1dd76bbefe5a5ccf55a3" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><script src="https://assets.website-files.com/5ccc1dd76bbefe5a5ccf55a3/js/whiteboardis.eb7eb9894.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]--><script>
+$('.portfolio-link').click(function (e) {
+    e.preventDefault();                   // prevent default anchor behavior
+    var goTo = this.getAttribute("href"); // store anchor href
 
-                <a href="{{ route('stories.create') }}" class="button btnsecondary gradient-btn mb-sm-0 mb-4">Get Started</a>
-            </div>
+    // do something while timeOut ticks ... 
 
-            <div class="col-lg-6 col-md-7 col-sm-7 text-sm-left text-center wow fadeInRight" data-wow-delay="300ms">
-                <div class="image"><img alt="SEO" src="assets/images/getstarted.jpg"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Some Feature ends-->
+    setTimeout(function(){
+         window.location = goTo;
+    }, 600);                             // time in ms
+}); 
+</script></body></html>
 
-<!-- Our Team-->
-<section id="our-team" class="padding_top half-section-alt teams-border mb-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="heading-title heading_space wow fadeInUp" data-wow-delay="300ms">
-                    <span class="defaultcolor text-center text-md-left p-2" style="color: #0085ad !important;">Connection Coins are being shared in real life all over the WORLD
-                    </span>
-                    <h2 class="darkcolor font-normal text-center text-md-left">Track The Impact</h2>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <p class="heading_space mt-n3 mt-sm-0 text-center">
-                    <a href="#our-team" class="button btnsecondary gradient-btn pagescroll mb-sm-0 mb-4">Join now</a>
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div id="ourteam-slider" class="owl-carousel">
-                    @foreach( $stories as $story )
-                        <div class="item">
-                            <div class="team-box">
-                                <div class="image">
-                                    @if ( isset($story->images[0]) )
-                                        <img src="{{ $story->images[0]->getCompressImage( $story->images[0]->filepath ) }}" alt="">
-                                    @else
-                                        <img src="{{ asset('assets/images/awesome-feature.jpg') }}" alt="">
-                                    @endif
-                                </div>
-                                <div class="team-content">
-                                    <h4 class="darkcolor">{{ $story->title }}</h4>
-                                    <p>{{ substr($story->description, 0, 40) }}</p>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Our Team ends-->
-
-<!--Site Footer Here-->
-<footer id="site-footer" class=" bgdark padding_top">
-    <div class="container">
-        </div>
-    </div>
-</footer>
-<!--Footer ends-->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="assets/js/jquery-3.4.1.min.js"></script>
-<!--Bootstrap Core-->
-<script src="assets/js/propper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<!--to view items on reach-->
-<script src="assets/js/jquery.appear.js"></script>
-<!--Owl Slider-->
-<script src="assets/js/owl.carousel.min.js"></script>
-<!--number counters-->
-<script src="assets/js/jquery-countTo.js"></script>
-<!--Parallax Background-->
-<script src="assets/js/parallaxie.js"></script>
-<!--Cubefolio Gallery-->
-<script src="assets/js/jquery.cubeportfolio.min.js"></script>
-<!--Fancybox js-->
-<script src="assets/js/jquery.fancybox.min.js"></script>
-<!--tooltip js-->
-<script src="assets/js/tooltipster.min.js"></script>
-<!--wow js-->
-<script src="assets/js/wow.js"></script>
-<!--Revolution SLider-->
-<script src="assets/js/revolution/jquery.themepunch.tools.min.js"></script>
-<script src="assets/js/revolution/jquery.themepunch.revolution.min.js"></script>
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
-<script src="assets/js/revolution/extensions/revolution.extension.actions.min.js"></script>
-<script src="assets/js/revolution/extensions/revolution.extension.carousel.min.js"></script>
-<script src="assets/js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="assets/js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="assets/js/revolution/extensions/revolution.extension.migration.min.js"></script>
-<script src="assets/js/revolution/extensions/revolution.extension.navigation.min.js"></script>
-<script src="assets/js/revolution/extensions/revolution.extension.parallax.min.js"></script>
-<script src="assets/js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="assets/js/revolution/extensions/revolution.extension.video.min.js"></script>
-<!--custom functions and script-->
-<script src="assets/js/functions.js"></script>
-</body>
-</html>
