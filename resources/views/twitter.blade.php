@@ -268,7 +268,7 @@
                                 </div>
                                 <div class="col-lg-7 col-sm-12 col-md-12">
                                     <div class="text-left">
-                                        <h2 class="text-dark">Track The <span class="base-color">Impact</span></h2>
+                                        <h2 class="text-dark">See The <span class="base-color">Stories</span></h2>
                                         <p class="text-muted mt-1">Connection Coins are being shared in real life all over the WORLD</p>
                                     </div>
                                 </div>
