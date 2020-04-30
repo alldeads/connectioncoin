@@ -100,9 +100,6 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-12">
                                     <div class="hero-content text-center">
-                                        <p> 
-                                            <img src="{{ asset('images/app_icon.png') }}" width="300">
-                                        </p>
                                         <h1 class="text-dark mb-3 cambon">A movement of humans who believe that the magic of real-life connection has the power to uplift, elevate, and inspire.</h1>
                                     </div>
                                 </div>
@@ -124,7 +121,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-12">
                                     <div class="hero-content text-center">
-                                        <h1 class="text-dark mb-3 cambon">We believe in positivity, doing good, saying thank you - and any real moment where people can look each other in the eye and connect. </h1>
+                                        <h1 class="text-dark mb-3 cambon">We believe in positivity, doing good, saying Hi - and any real moment where people can look each other in the eye and connect. </h1>
 
                                         <a href="#about" class="pill-button mt-3 mb-lg-0">Learn More</a>
                                     </div>
@@ -149,79 +146,13 @@
                                     <div class="hero-content text-center">
                                         <h1 class="text-dark mb-3 cambon"> What is <span style="color: #0085ad;">Connection</span>?</h1>
 
-                                        <p class="text-dark mb-3 text-justify">It’s an unexpected laugh together. The biggest hug ever. When you realize you’re both from the same hometown that’s 800 miles from here. Telling another person you believe in her. A high five. A smile. Sitting down on the curb beside a stranger. Moving your books so someone else can sit down to study. It’s a return to real-life interaction.</p>
+                                        <p class="text-dark mb-3 text-justify">It’s an unexpected laugh together. The biggest hug ever. When you realize you’re both from the same hometown that’s 800 miles from here. Telling another person you believe in her. A high five. A smile. Sitting down on the curb beside a stranger. Moving your books so someone else can sit down to study. <b>It’s a return to real-life interaction</b>.</p>
                                         <p class="text-dark mb-3 text-justify">Connection is delicate and mighty; finite and expansive; detailed and abstract; scientific and unexplainable. 
                                         </p>
-                                        <p class="text-dark mb-3 text-justify">It’s that special feeling when two hearts align or when two souls meet. When people choose to elevate and inspire each other. It’s human magic.</p>
-                                        <p class="text-dark mb-3 text-justify"> Connection Coin is a movement committed to bringing more of all these good vibes to our world.
+                                        <p class="text-dark mb-3 text-justify">It’s that special feeling when two hearts align or when two souls meet. When people choose to elevate and inspire each other. <b>It’s human magic</b>.</p>
+                                        <p class="text-dark mb-3 text-center"> <b>Connection Coin is a movement committed to bringing more of all these good vibes to our world.</b>
                                         </p>
                                         <a href="#about" class="pill-button mt-3 mb-lg-0">About Us</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--    Hero End    -->
-
-            <!--    Hero Start    -->
-            <section class="section pp-scrollable hero hero-01" id="about" data-navigation-color="#fff" data-navigation-tooltip="ABOUT US" data-background-image="">
-                <div class="display-table">
-                    <div class="display-content">
-                        <div class="container">
-                            <div class="title-small">
-                                <p class="text-dark">About Us</p>
-                            </div>
-                            <div class="row justify-content-center">
-                                <div class="col-lg-12">
-                                    <div class="hero-content text-center">
-                                        <h1 class="text-dark mb-3 cambon"> About <span style="color: #0085ad;">Us</span></h1>
-
-                                        <p class="text-dark mb-3 text-justify">Welcome to Connection Coin, a community of people who believe intentional, positive connections between friends, co-workers and even strangers can change the world.</p>
-
-                                        <p class="text-dark mb-3 text-justify">Through Connection Coin you can give, receive and track coins with positive sayings and unique pin numbers as they pass from person to person spreading positivity, love, and encouragement. Think of "paying it forward" that is trackable! Our goal is that each coin in circulation is passed again and again, creating countless positive face to face connections for people from all over the world. We hope to inspire a return to real life interactions by sharing and celebrating the stories and moments of connection on our news feed.
-                                        </p>
-
-                                        <p class="text-dark mb-3 text-justify">Received a coin?</p>
-
-                                        <p class="text-dark mb-3 text-justify"> We can't wait to hear about your connection! Click the "Create Connection" button and enter the number and phrase of the coin you received. Share the story of how you received the coin and a picture that tells the story of the connection. This information will show up in the connections news feed on our site with all of the other connections being made. Be sure to create your profile to track where the coin goes and include a cover picture, bio and links to your social media if you like. Now it's your turn to pass the coin to the next person! Want to create even more connections? Follow steps below!
-                                        </p>
-
-                                        <p class="text-dark mb-3 text-justify"> Ready to join the community and start giving out coins?
-                                        </p>
-
-                                        <p class="text-dark mb-3 text-justify"> Click the "Get Coins Here" button and order your Starter Pack. When you receive your coins in the mail, visit ConnectionCoin.com to register each coin on your profile. Now you're the catalyst, giving out coins and creating new connections with each coin you share! Be sure to encourage the person who receives the coin from you to log the story of the connection on ConnectionCoin.com before passing it along. On your profile you can track each coin and count how many connections you help create. Watch as your coins travel across the globe and remember to get your coin refill packs to keep the good vibes flowing!
-                                        </p>
-
-                                        <p class="text-dark text-justify"> Check out the <a href="https://www.youtube.com/channel/UCwwtAQ4HgzCB8UX-xvIUOlA">Connection Coin YouTube page</a> for directions on how to register your coins, tips for giving them out, the story behind Connection Coin and more! Tag us @connectioncoin on social media and watch as we share amazing stories of people like you creating beautiful connections all over the world!
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--    Hero End    -->
-
-            <!--    Hero Start    -->
-            <section class="section pp-scrollable hero hero-01" id="connector" data-navigation-color="#fff" data-navigation-tooltip="CONNECTOR" data-background-image="">
-                <div class="display-table">
-                    <div class="display-content">
-                        <div class="container">
-                            <div class="title-small">
-                                <p class="text-dark">Connector</p>
-                            </div>
-                            <div class="row justify-content-center">
-                                <div class="col-lg-12">
-                                    <div class="hero-content text-center">
-                                        <h1 class="text-dark mb-3 cambon"> Are you a <span style="color: #0085ad;">Connector</span>?</h1>
-
-                                        <p class="text-dark mb-3 cambon"> Start sharing your power of connection - by giving coins to others.
-                                        </p>
-
-                                        <a href="https://store.connectioncoin.com" class="pill-button mt-3 mb-lg-0">Get Coins</a>
                                     </div>
                                 </div>
                             </div>
@@ -240,14 +171,24 @@
                                 <p class="text-dark">Coin</p>
                             </div>
                             <div class="row justify-content-center">
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="hero-content text-center">
-                                        <h1 class="text-dark mb-3 cambon"> Received a <span style="color: #0085ad;">Coin</span>?</h1>
+                                        <h1 class="text-dark mb-3 cambon1"> Are you a <span style="color: #0085ad;">Connector</span>?</h1>
 
-                                        <p class="text-dark mb-3 cambon"> We’re so glad you’re here! Here’s what you need to do now. 
+                                        <p class="text-dark mb-3 cambon1"> Start sharing your power of connection - by giving coins to others.
                                         </p>
 
-                                        <a href="{{ route('stories.create') }}" class="pill-button mt-3 mb-lg-0">Get Started</a>
+                                        <a href="#" data-toggle="modal" data-target="#connectorcoin" class="pill-button mt-3 mb-lg-0">Get coins</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="hero-content text-center">
+                                        <h1 class="text-dark mb-3 cambon1"> Received a <span style="color: #0085ad;">Coin</span>?</h1>
+
+                                        <p class="text-dark mb-3 cambon1"> We’re so glad you’re here! Here’s what you need to do now. 
+                                        </p>
+
+                                        <a href="#" data-toggle="modal" data-target="#receivedcoin" class="pill-button mt-3 mb-lg-0">Learn more</a>
                                     </div>
                                 </div>
                             </div>
@@ -256,6 +197,52 @@
                 </div>
             </section>
             <!--    Hero End    -->
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="receivedcoin">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Received a coin?</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-dark mb-3 text-justify">We can't wait to hear about your connection!</p>
+                            <p class="text-dark mb-3 text-justify"> Click the "Create Connection" button and enter the number and phrase of the coin you received. </p>
+                            <p class="text-dark mb-3 text-justify">Share the story of how you received the coin and a picture that tells the story of the connection. This information will show up in the connections news feed on our site with all of the other connections being made. Be sure to create your profile to track where the coin goes and include a cover picture, bio and links to your social media if you like.</p> Now it's your turn to pass the coin to the next person! Want to create even more connections? Follow steps below!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="connectorcoin">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Are you a Connector?</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-dark mb-3 text-justify"> Ready to join the community and start giving out coins?</p>
+
+                            <p class="text-dark mb-3 text-justify"> Click the <a href="https://store.connectioncoin.com">"Get Coins Here"</a> button and order your Starter Pack. When you receive your coins in the mail, visit ConnectionCoin.com to register each coin on your profile. Now you're the catalyst, giving out coins and creating new connections with each coin you share! Be sure to encourage the person who receives the coin from you to log the story of the connection on ConnectionCoin.com before passing it along. On your profile you can track each coin and count how many connections you help create. Watch as your coins travel across the globe and remember to get your coin refill packs to keep the good vibes flowing!
+                                        </p>
+
+                            <p class="text-dark text-justify"> Check out the <a href="https://www.youtube.com/channel/UCwwtAQ4HgzCB8UX-xvIUOlA">Connection Coin YouTube page</a> for directions on how to register your coins, tips for giving them out, the story behind Connection Coin and more! Tag us @connectioncoin on social media and watch as we share amazing stories of people like you creating beautiful connections all over the world!
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!--   Blog Start   -->
             <section id="stories" class="section pp-scrollable blog" data-navigation-color="#fff" data-navigation-tooltip="STORIES">
@@ -268,13 +255,13 @@
                                 </div>
                                 <div class="col-lg-7 col-sm-12 col-md-12">
                                     <div class="text-left">
-                                        <h2 class="text-dark">See The <span class="base-color">Stories</span></h2>
+                                        <h2 class="text-dark">See The <span class="base-color">Connections</span></h2>
                                         <p class="text-muted mt-1">Connection Coins are being shared in real life all over the WORLD</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-5 col-sm-12 col-md-12">
                                     <div class="text-center">
-                                        <a href="{{ route('stories.index') }}" class="pill-button mt-3 mb-lg-0">See The Stories</a>
+                                        <a href="{{ route('stories.index') }}" class="pill-button mt-3 mb-lg-0">See The Connections</a>
                                     </div>
                                 </div>
                             </div>
@@ -307,6 +294,32 @@
                 </div>
             </section>
             <!--   Blog End   -->
+
+            <!--    Hero Start    -->
+            <section class="section pp-scrollable hero hero-01" id="about" data-navigation-color="#fff" data-navigation-tooltip="ABOUT US" data-background-image="">
+                <div class="display-table">
+                    <div class="display-content">
+                        <div class="container">
+                            <div class="title-small">
+                                <p class="text-dark">About Us</p>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <div class="hero-content text-center">
+                                        <h1 class="text-dark mb-3 cambon"> About <span style="color: #0085ad;">Us</span></h1>
+
+                                        <p class="text-dark mb-3 text-center">Welcome to Connection Coin, a community of people who believe intentional, positive connections between friends, co-workers and even strangers can change the world.</p>
+
+                                        <p class="text-dark mb-3 text-center">Through Connection Coin you can give, receive and track coins with positive sayings and unique pin numbers as they pass from person to person spreading positivity, love, and encouragement. Think of "paying it forward" that is trackable! Our goal is that each coin in circulation is passed again and again, creating countless positive face to face connections for people from all over the world. We hope to inspire a return to real life interactions by sharing and celebrating the stories and moments of connection on our news feed.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--    Hero End    -->
 
              <!--   Footer Start   -->
              <div id="footer" class="section pp-scrollable footer" data-navigation-color="#fff" data-navigation-tooltip="FOOTER" data-background-image="">
