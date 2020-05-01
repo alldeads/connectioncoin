@@ -198,52 +198,6 @@
             </section>
             <!--    Hero End    -->
 
-            <div class="modal fade" tabindex="-1" role="dialog" id="receivedcoin">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Received a coin?</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p class="text-dark mb-3 text-justify">We can't wait to hear about your connection!</p>
-                            <p class="text-dark mb-3 text-justify"> Click the "Create Connection" button and enter the number and phrase of the coin you received. </p>
-                            <p class="text-dark mb-3 text-justify">Share the story of how you received the coin and a picture that tells the story of the connection. This information will show up in the connections news feed on our site with all of the other connections being made. Be sure to create your profile to track where the coin goes and include a cover picture, bio and links to your social media if you like.</p> Now it's your turn to pass the coin to the next person! Want to create even more connections? Follow steps below!</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal fade" tabindex="-1" role="dialog" id="connectorcoin">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Are you a Connector?</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p class="text-dark mb-3 text-justify"> Ready to join the community and start giving out coins?</p>
-
-                            <p class="text-dark mb-3 text-justify"> Click the <a href="https://store.connectioncoin.com">"Get Coins Here"</a> button and order your Starter Pack. When you receive your coins in the mail, visit ConnectionCoin.com to register each coin on your profile. Now you're the catalyst, giving out coins and creating new connections with each coin you share! Be sure to encourage the person who receives the coin from you to log the story of the connection on ConnectionCoin.com before passing it along. On your profile you can track each coin and count how many connections you help create. Watch as your coins travel across the globe and remember to get your coin refill packs to keep the good vibes flowing!
-                                        </p>
-
-                            <p class="text-dark text-justify"> Check out the <a href="https://www.youtube.com/channel/UCwwtAQ4HgzCB8UX-xvIUOlA">Connection Coin YouTube page</a> for directions on how to register your coins, tips for giving them out, the story behind Connection Coin and more! Tag us @connectioncoin on social media and watch as we share amazing stories of people like you creating beautiful connections all over the world!
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!--   Blog Start   -->
             <section id="stories" class="section pp-scrollable blog" data-navigation-color="#fff" data-navigation-tooltip="STORIES">
                 <div class="display-table">
@@ -350,6 +304,52 @@
 
         </div>
         <!--  Page Pilling  End -->
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="receivedcoin">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Received a coin?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-dark mb-3 text-justify">We can't wait to hear about your connection!</p>
+                        <p class="text-dark mb-3 text-justify"> Click the "Create Connection" button and enter the number and phrase of the coin you received. </p>
+                        <p class="text-dark mb-3 text-justify">Share the story of how you received the coin and a picture that tells the story of the connection. This information will show up in the connections news feed on our site with all of the other connections being made. Be sure to create your profile to track where the coin goes and include a cover picture, bio and links to your social media if you like.</p> Now it's your turn to pass the coin to the next person! Want to create even more connections? Follow steps below!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="connectorcoin">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Are you a Connector?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-dark mb-3 text-justify"> Ready to join the community and start giving out coins?</p>
+
+                        <p class="text-dark mb-3 text-justify"> Click the <a href="https://store.connectioncoin.com">"Get Coins Here"</a> button and order your Starter Pack. When you receive your coins in the mail, visit ConnectionCoin.com to register each coin on your profile. Now you're the catalyst, giving out coins and creating new connections with each coin you share! Be sure to encourage the person who receives the coin from you to log the story of the connection on ConnectionCoin.com before passing it along. On your profile you can track each coin and count how many connections you help create. Watch as your coins travel across the globe and remember to get your coin refill packs to keep the good vibes flowing!
+                                    </p>
+
+                        <p class="text-dark text-justify"> Check out the <a href="https://www.youtube.com/channel/UCwwtAQ4HgzCB8UX-xvIUOlA">Connection Coin YouTube page</a> for directions on how to register your coins, tips for giving them out, the story behind Connection Coin and more! Tag us @connectioncoin on social media and watch as we share amazing stories of people like you creating beautiful connections all over the world!
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!--  JavaScripts  -->
