@@ -100,9 +100,11 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-12">
                                     <div class="hero-content text-center">
-                                        <a href="{{ route('stories.index') }}">
-                                            <img src="{{ asset('images/app_icon.png') }}" width="450">
-                                        </a>
+                                        <p class="text-dark size-sm">
+                                            <a href="{{ route('stories.index') }}">
+                                                <img id="img-logo" src="{{ asset('images/app_icon.png') }}" width="450">
+                                            </a>
+                                         </p>
 
                                         <h1 class="text-dark mb-3 cambon">A movement of humans who believe that the magic of real-life connection has the power to uplift, elevate, and inspire.</h1>
                                     </div>
