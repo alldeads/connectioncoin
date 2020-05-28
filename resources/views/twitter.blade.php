@@ -100,6 +100,10 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-12">
                                     <div class="hero-content text-center">
+                                        <a href="{{ route('stories.index') }}">
+                                            <img src="{{ asset('images/app_icon.png') }}" width="450">
+                                        </a>
+
                                         <h1 class="text-dark mb-3 cambon">A movement of humans who believe that the magic of real-life connection has the power to uplift, elevate, and inspire.</h1>
                                     </div>
                                 </div>
@@ -152,7 +156,7 @@
                                         <p class="text-dark mb-3 text-justify">It’s that special feeling when two hearts align or when two souls meet. When people choose to elevate and inspire each other. <b>It’s human magic</b>.</p>
                                         <p class="text-dark mb-3 text-center"> <b>Connection Coin is a movement committed to bringing more of all these good vibes to our world.</b>
                                         </p>
-                                        <a href="#about" class="pill-button mt-3 mb-lg-0">About Us</a>
+                                        <a href="#about" class="pill-button mt-3 mb-lg-0">How does it work?</a>
                                     </div>
                                 </div>
                             </div>
@@ -266,6 +270,196 @@
 
                                         <p class="text-dark mb-3 text-center">Through Connection Coin you can give, receive and track coins with positive sayings and unique pin numbers as they pass from person to person spreading positivity, love, and encouragement. Think of "paying it forward" that is trackable! Our goal is that each coin in circulation is passed again and again, creating countless positive face to face connections for people from all over the world. We hope to inspire a return to real life interactions by sharing and celebrating the stories and moments of connection on our news feed.
                                         </p>
+
+                                        <a href="#coin" class="pill-button mt-3 mb-lg-0">Get started</a><br/>
+
+                                        <a href="#founder" class="pill-button mt-3 mb-lg-0">Message from our founder</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--    Hero End    -->
+
+            <!--    Hero Start    -->
+            <section class="section pp-scrollable hero hero-01" id="founder" data-navigation-color="#fff" data-navigation-tooltip="Founder" data-background-image="">
+                <div class="display-table">
+                    <div class="display-content">
+                        <div class="container">
+                            <div class="title-small">
+                                <p class="text-dark">Message</p>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <div class="hero-content text-center">
+                                        <h1 class="text-dark mb-3 cambon"> Message from our <span style="color: #0085ad;">Founder</span></h1>
+
+                                        <p class="text-dark mb-3 text-center">It all started with a $2 bill.</p>
+
+                                        <p class="text-dark mb-3 text-center">
+                                            Several years ago I was going through a tough time, and my best friend Jason gave me a $2
+                                            bill. Someone had given it to Jason when he needed it and now it was his turn to pass it on and
+                                            he gave it to me. It was positivity, love, and good vibes - a nod to hang in there, to stay
+                                            connected, to remember we’re here for each other.
+                                        </p>
+
+                                        <p class="text-dark mb-3 text-center">
+                                            Some time later, I was walking out of a grocery store and noticed a girl sitting on a bench and I
+                                            could tell that she was upset. I simply asked if I could sit down next to her to see if she was ok.
+                                            She told me her entire story and the struggle she was going through. In that moment, I
+                                            remembered that I had the $2 bill in my wallet from when Jason gave it to me. I took it out and
+                                            gave it to her. She was so moved that she broke down in tears and I found myself hugging a
+                                            total stranger, both of us wiping away tears from the moment we were sharing. Tears of
+                                            support, love and the power of human connection.
+                                        </p>
+
+                                        <p class="text-dark mb-3 text-center">
+                                            Inspired by these special and personal experiences, I wanted to find a way to inspire more real
+                                            life connections. I wanted to be able to know who she gave the $2 bill to next. I wanted to be
+                                            able to check in on her. I wanted more moments of connection like this with friends and
+                                            strangers, but there wasn’t a platform to do it. This led me to launching Connection Coin in
+                                            2019.
+                                        </p>
+
+                                        <p class="text-dark mb-3 text-center">
+                                            I believe that in each of us lies the power to change the world. If we can connect with another
+                                            person, lift them up, love them, support them when they need it, or simply see them for the
+                                            amazing person they are, then we have created a ripple. A ripple that can help build a never
+                                            ending wave of positivity, kindness and inspiration. That is why we have those 3 powerful
+                                            words on each coin. The hope that each day you will carry a coin with you. Looking for a
+                                            moment to connect. With anyone and with everyone. To share a smile, to share a laugh and to
+                                            feel to witness the amazing way you can change the world by connecting with the people right
+                                            in front of you.
+                                        </p>
+
+                                        <p class="text-dark mb-3 text-center">
+                                            We are all in this journey together. It is going to be more powerful, more meaningful and there
+                                            will be more laughs and smiles along the way if we do it together.
+                                            Big love, Court
+                                        </p>
+
+                                        <p class="text-dark mb-3 text-center">
+                                            To see the video of me sharing the $2 bill story at the Connection Coin launch party here it is:
+                                            <br><a href="https://www.youtube.com/watch?v=GTt5fVvXhKg&t=325s" target="_blank">https://www.youtube.com/watch?v=GTt5fVvXhKg&t=325s</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--    Hero End    -->
+
+            <!--    Hero Start    -->
+            <section class="section pp-scrollable hero hero-01" id="faq" data-navigation-color="#fff" data-navigation-tooltip="FAQ" data-background-image="">
+                <div class="display-table">
+                    <div class="display-content">
+                        <div class="container">
+                            <div class="title-small">
+                                <p class="text-dark">FAQ</p>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <div class="hero-content text-center">
+                                        <h1 class="text-dark mb-3 cambon"> Frequently Asked <span style="color: #0085ad;">Questions</span></h1>
+
+                                        <p class="text-dark mb-3 text-center">
+                                            The goal of Connection Coin is to bring us all closer together. With that in mind, here is a bit more about who we are and more importantly, who we are not
+                                        </p>
+
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                                <div class="card-header" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <button style="color: black; text-decoration: none;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            How do I make a post?
+                                                        </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                         The only way a post can be made is when two people connect. Our mission is to celebrate the
+                                                        shared human experience, so posts only happen when you connect with someone and have the coin information to enter.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <button style="color: black; text-decoration: none;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                            Do I have to give the coin to a stranger?
+                                                        </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        Simply put, no. A coin is your opportunity to create a moment of connection. It
+                                                        could be a family member or long time friend. Our mission is to foster real, face to face connections in whatever form
+                                                        feels right for you.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header" id="headingThree">
+                                                    <h5 class="mb-0">
+                                                        <button style="color: black; text-decoration: none;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                                            What personal information do I have to share?
+                                                        </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        You share as much or little about yourself as you want. We just ask that
+                                                        you share a name and hopefully a profile pic. If you want to link to your other social media accounts, or leave a detailed
+                                                        bio that’s great! Our goal is to help you connect with others and vise versa in a way that feels safe and comfortable.
+                                                        Anyone who abuses this platform with negativity or harassment will be removed.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header" id="headingFour">
+                                                    <h5 class="mb-0">
+                                                        <button style="color: black; text-decoration: none;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                                            What do you do with my information?
+                                                        </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        Nothing. We do not sell, share, or link your information to any 3rd parties.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div class="card-header" id="headingFive">
+                                                    <h5 class="mb-0">
+                                                        <button style="color: black; text-decoration: none;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                                            The coin locations are shared, how does that work? 
+                                                        </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                         When a connection is made, the person receiving a coin shares
+                                                        “where” the connection happened. We use that information to drop a pin on the map. Neither the coin, nor your
+                                                        location is being tracked by Connection Coin. We do want, nor desire to track movements, just want to share where
+                                                        each moments of connection took place!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
