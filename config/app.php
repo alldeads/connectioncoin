@@ -180,7 +180,7 @@ return [
         Maatwebsite\Excel\ExcelServiceProvider::class,
 
         // Mews\Captcha\CaptchaServiceProvider::class,
-
+        Igoshev\Captcha\Providers\CaptchaServiceProvider::class,
     ],
 
     /*

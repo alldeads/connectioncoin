@@ -39,7 +39,8 @@ class ConnectionController extends Controller
     {
         $this->validate($request, [
             'number' => 'required',
-            'phrase' => 'required'
+            'phrase' => 'required',
+            'captcha' => 'required|captchaa'
         ]);
 
         $coin = $coin->exists($request->input('number'), $request->input('phrase'));

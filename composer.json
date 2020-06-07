@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.1.3",
         "astrotomic/ignition-stackoverflow": "^1.3",
+        "bonecms/laravel-captcha": "^2.2",
         "doctrine/dbal": "^2.9",
         "facade/ignition": "^1.3",
         "fideloper/proxy": "^4.0",
